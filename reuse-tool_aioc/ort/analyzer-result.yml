@@ -1,0 +1,3715 @@
+---
+repository:
+  vcs:
+    type: "Git"
+    url: "https://git.fsfe.org/reuse/tool"
+    revision: "89ded7035aaf3044b998324532ac7326903cf83a"
+    path: ""
+  vcs_processed:
+    type: "Git"
+    url: "https://git.fsfe.org/reuse/tool"
+    revision: "89ded7035aaf3044b998324532ac7326903cf83a"
+    path: ""
+  config: {}
+analyzer:
+  start_time: "2021-09-18T15:40:00.431482Z"
+  end_time: "2021-09-18T15:40:59.637768Z"
+  environment:
+    ort_version: "DOCKER-SNAPSHOT"
+    java_version: "11.0.8"
+    os: "Linux"
+    processors: 12
+    max_memory: 16773021696
+    variables:
+      JAVA_HOME: "/opt/java/openjdk"
+      ANDROID_HOME: "/opt/android-sdk"
+      GOPATH: "/go"
+    tool_versions:
+      PIP: "9.0.1"
+  config:
+    ignore_tool_versions: false
+    allow_dynamic_versions: true
+  result:
+    projects:
+    - id: "PIP::reuse-requirements:0.13.0"
+      definition_file_path: "requirements.txt"
+      authors:
+      - "Carmen Bianca Bakker"
+      declared_licenses:
+      - "Apache Software License"
+      - "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+      - "GNU General Public License v3 or later (GPLv3+)"
+      - "GPL-3.0-or-later AND Apache-2.0 AND CC0-1.0 AND CC-BY-SA-4.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0 AND CC0-1.0 AND GPL-3.0-or-later AND GPL-3.0-or-later\
+          \ AND Apache-2.0 AND CC0-1.0 AND CC-BY-SA-4.0"
+        mapped:
+          Apache Software License: "Apache-2.0"
+          CC0 1.0 Universal (CC0 1.0) Public Domain Dedication: "CC0-1.0"
+          GNU General Public License v3 or later (GPLv3+): "GPL-3.0-or-later"
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://git.fsfe.org/reuse/tool"
+        revision: "89ded7035aaf3044b998324532ac7326903cf83a"
+        path: ""
+      homepage_url: "https://reuse.software/"
+      scope_names:
+      - "install"
+    - id: "PIP::reuse-requirements-dev:0.13.0"
+      definition_file_path: "requirements-dev.txt"
+      authors:
+      - "Carmen Bianca Bakker"
+      declared_licenses:
+      - "Apache Software License"
+      - "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+      - "GNU General Public License v3 or later (GPLv3+)"
+      - "GPL-3.0-or-later AND Apache-2.0 AND CC0-1.0 AND CC-BY-SA-4.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0 AND CC0-1.0 AND GPL-3.0-or-later AND GPL-3.0-or-later\
+          \ AND Apache-2.0 AND CC0-1.0 AND CC-BY-SA-4.0"
+        mapped:
+          Apache Software License: "Apache-2.0"
+          CC0 1.0 Universal (CC0 1.0) Public Domain Dedication: "CC0-1.0"
+          GNU General Public License v3 or later (GPLv3+): "GPL-3.0-or-later"
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://git.fsfe.org/reuse/tool"
+        revision: "89ded7035aaf3044b998324532ac7326903cf83a"
+        path: ""
+      homepage_url: "https://reuse.software/"
+      scope_names:
+      - "install"
+    packages:
+    - package:
+        id: "PyPI::alabaster:0.7.12"
+        purl: "pkg:pypi/alabaster@0.7.12"
+        authors:
+        - "Jeff Forcier"
+        declared_licenses:
+        - "BSD License"
+        declared_licenses_processed:
+          unmapped:
+          - "BSD License"
+        description: "A configurable sidebar-enabled Sphinx theme"
+        homepage_url: "https://alabaster.readthedocs.io"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/10/ad/00b090d23a222943eb0eda509720a404f531a439e803f6538f35136cae9e/alabaster-0.7.12-py2.py3-none-any.whl"
+          hash:
+            value: "6487fd5054a3eece3a6b96bda83d97b2"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/cc/b4/ed8dcb0d67d5cfb7f83c4d5463a7614cb1d078ad7ae890c9143edebbf072/alabaster-0.7.12.tar.gz"
+          hash:
+            value: "3591827fde96d1dd23970fb05410ed04"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::appdirs:1.4.4"
+        purl: "pkg:pypi/appdirs@1.4.4"
+        authors:
+        - "Trent Mick"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "A small Python module for determining appropriate platform-specific\
+          \ dirs, e.g. a \"user data dir\"."
+        homepage_url: "http://github.com/ActiveState/appdirs"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/3b/00/2344469e2084fb287c2e0b57b72910309874c3245463acd6cf5e3db69324/appdirs-1.4.4-py2.py3-none-any.whl"
+          hash:
+            value: "1d638a5913a8d8ed8e7c7d789ece149c"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/d7/d8/05696357e0311f5b5c316d7b95f46c669dd9c15aaeecbb48c7d0aeb88c40/appdirs-1.4.4.tar.gz"
+          hash:
+            value: "d6bca12613174185dd9abc8a29f4f012"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/ActiveState/appdirs.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::astroid:2.5"
+        purl: "pkg:pypi/astroid@2.5"
+        authors:
+        - "Python Code Quality Authority"
+        declared_licenses:
+        - "LGPL"
+        declared_licenses_processed:
+          spdx_expression: "LGPL-2.0-or-later"
+          mapped:
+            LGPL: "LGPL-2.0-or-later"
+        description: "An abstract syntax tree for Python with inference support."
+        homepage_url: "https://github.com/PyCQA/astroid"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/ff/f0/2364d469327ffef8ee1964a5995f8206fd22fcfa57f2618498f8b963329f/astroid-2.5-py3-none-any.whl"
+          hash:
+            value: "c3a6c6a7cc056f70754361f1bd27de89"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/18/00/753b485627d9cd642516c195db63dcc0c87c36b8c682125c000b7f611b09/astroid-2.5.tar.gz"
+          hash:
+            value: "ada7b4df6243a4506de0efb8442ae596"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/PyCQA/astroid.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::attrs:21.2.0"
+        purl: "pkg:pypi/attrs@21.2.0"
+        authors:
+        - "Hynek Schlawack"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Classes Without Boilerplate"
+        homepage_url: "https://www.attrs.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/20/a9/ba6f1cd1a1517ff022b35acd6a7e4246371dfab08b8e42b829b6d07913cc/attrs-21.2.0-py2.py3-none-any.whl"
+          hash:
+            value: "50e772bf1a75df648734eb0498383df6"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/ed/d6/3ebca4ca65157c12bd08a63e20ac0bdc21ac7f3694040711f9fd073c0ffb/attrs-21.2.0.tar.gz"
+          hash:
+            value: "06af884070d9180694becdb106e5cd65"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::babel:2.9.1"
+        purl: "pkg:pypi/babel@2.9.1"
+        authors:
+        - "Armin Ronacher"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Internationalization utilities"
+        homepage_url: "http://babel.pocoo.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/aa/96/4ba93c5f40459dc850d25f9ba93f869a623e77aaecc7a9344e19c01942cf/Babel-2.9.1-py2.py3-none-any.whl"
+          hash:
+            value: "dc992f572b37ba07b36daaba79ca6aed"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/17/e6/ec9aa6ac3d00c383a5731cc97ed7c619d3996232c977bb8326bcbb6c687e/Babel-2.9.1.tar.gz"
+          hash:
+            value: "7166099733d78aa857d74fa50d8ff58c"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::backports-entry-points-selectable:1.1.0"
+        purl: "pkg:pypi/backports-entry-points-selectable@1.1.0"
+        authors:
+        - "Jason R. Coombs"
+        declared_licenses:
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Compatibility shim providing selectable entry points for older\
+          \ implementations"
+        homepage_url: "https://github.com/jaraco/backports.entry_points_selectable"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/0c/cd/1e156227cad9f599524eb10af62a2362f872910a49402dbd2bea2dedc91c/backports.entry_points_selectable-1.1.0-py2.py3-none-any.whl"
+          hash:
+            value: "ef5f14bf7059a0bbb8520a706d150cbe"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/e4/7e/249120b1ba54c70cf988a8eb8069af1a31fd29d42e3e05b9236a34533533/backports.entry_points_selectable-1.1.0.tar.gz"
+          hash:
+            value: "a06623d13fdd3d1860d69abe0ddb7201"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/jaraco/backports.entry_points_selectable.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::binaryornot:0.4.4"
+        purl: "pkg:pypi/binaryornot@0.4.4"
+        authors:
+        - "Audrey Roy Greenfeld"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Ultra-lightweight pure Python package to check if a file is\
+          \ binary or text."
+        homepage_url: "https://github.com/audreyr/binaryornot"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/24/7e/f7b6f453e6481d1e233540262ccbfcf89adcd43606f44a028d7f5fae5eb2/binaryornot-0.4.4-py2.py3-none-any.whl"
+          hash:
+            value: "7a69d00f3c384693c9616c3381c411a3"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/a7/fe/7ebfec74d49f97fc55cd38240c7a7d08134002b1e14be8c3897c0dd5e49b/binaryornot-0.4.4.tar.gz"
+          hash:
+            value: "09c0b7f5f3f7c881e2f306780eac7128"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/audreyr/binaryornot.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::black:20.8b1"
+        purl: "pkg:pypi/black@20.8b1"
+        authors:
+        - "Łukasz Langa"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "The uncompromising code formatter."
+        homepage_url: "https://github.com/psf/black"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/dc/7b/5a6bbe89de849f28d7c109f5ea87b65afa5124ad615f3419e71beb29dc96/black-20.8b1.tar.gz"
+          hash:
+            value: "d2ea4865c1336bf3d986eb2da322c8ad"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/dc/7b/5a6bbe89de849f28d7c109f5ea87b65afa5124ad615f3419e71beb29dc96/black-20.8b1.tar.gz"
+          hash:
+            value: "d2ea4865c1336bf3d986eb2da322c8ad"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/psf/black.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::bleach:4.1.0"
+        purl: "pkg:pypi/bleach@4.1.0"
+        declared_licenses:
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache Software License: "Apache-2.0"
+        description: "An easy safelist-based HTML-sanitizing tool."
+        homepage_url: "https://github.com/mozilla/bleach"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/64/cc/74d634e1e5659742973a23bb441404c53a7bedb6cd3962109ca5efb703e8/bleach-4.1.0-py2.py3-none-any.whl"
+          hash:
+            value: "255c85ae782d21aec40751ef17580202"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/6a/a3/217842324374fd3fb33db0eb4c2909ccf3ecc5a94f458088ac68581f8314/bleach-4.1.0.tar.gz"
+          hash:
+            value: "41e70ac58aa7bc5ff96c8fef24b9d659"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/mozilla/bleach.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::boolean-py:3.8"
+        purl: "pkg:pypi/boolean-py@3.8"
+        authors:
+        - "Sebastian Kraemer"
+        declared_licenses:
+        - "BSD-2-Clause"
+        declared_licenses_processed:
+          spdx_expression: "BSD-2-Clause"
+        description: "Define boolean algebras, create and parse boolean expressions\
+          \ and create custom boolean DSL."
+        homepage_url: "https://github.com/bastikr/boolean.py"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/eb/5b/f82983127b1a1a4db83ee290e00a94a2b08c566fa6c58466e82ed7b0a76f/boolean.py-3.8-py2.py3-none-any.whl"
+          hash:
+            value: "fa308ca6a746135feb248097cc35c107"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/a1/eb/b37ef5647243ade8308f7bb46b1a45e6204790c163cbd8cf6df990d5c1c1/boolean.py-3.8.tar.gz"
+          hash:
+            value: "83ccc145ba74a585637124c8bc648333"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/bastikr/boolean.py.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::bump2version:1.0.1"
+        purl: "pkg:pypi/bump2version@1.0.1"
+        authors:
+        - "Christian Verkerk"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Version-bump your software with a single command!"
+        homepage_url: "https://github.com/c4urself/bump2version"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/1d/e3/fa60c47d7c344533142eb3af0b73234ef8ea3fb2da742ab976b947e717df/bump2version-1.0.1-py2.py3-none-any.whl"
+          hash:
+            value: "9735698e470af816b0ac7f9f149ac8a1"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/29/2a/688aca6eeebfe8941235be53f4da780c6edee05dbbea5d7abaa3aab6fad2/bump2version-1.0.1.tar.gz"
+          hash:
+            value: "dd9954741b37da790099efa0695a6874"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/c4urself/bump2version.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::certifi:2021.5.30"
+        purl: "pkg:pypi/certifi@2021.5.30"
+        authors:
+        - "Kenneth Reitz"
+        declared_licenses:
+        - "MPL-2.0"
+        - "Mozilla Public License 2.0 (MPL 2.0)"
+        declared_licenses_processed:
+          spdx_expression: "MPL-2.0"
+          mapped:
+            Mozilla Public License 2.0 (MPL 2.0): "MPL-2.0"
+        description: "Python package for providing Mozilla's CA Bundle."
+        homepage_url: "https://certifiio.readthedocs.io/en/latest/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl"
+          hash:
+            value: "ee66fb12729b9e8ea4bb5b4b92f5ce2d"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/6d/78/f8db8d57f520a54f0b8a438319c342c61c22759d8f9a1cd2e2180b5e5ea9/certifi-2021.5.30.tar.gz"
+          hash:
+            value: "4b38238b7305fcb3ffbc4368be4e8845"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::cffi:1.14.6"
+        purl: "pkg:pypi/cffi@1.14.6"
+        authors:
+        - "Armin Rigo, Maciej Fijalkowski"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Foreign Function Interface for Python calling C code."
+        homepage_url: "http://cffi.readthedocs.org"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/fd/c5/8983a249cb521c5e153f2f4a33442fca9db1fc0a9da2a1edcef9311c8ab3/cffi-1.14.6-cp27-cp27m-macosx_10_9_x86_64.whl"
+          hash:
+            value: "d2efb496366be8483bab370cbec8b55f"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/2e/92/87bb61538d7e60da8a7ec247dc048f7671afe17016cd0008b3b710012804/cffi-1.14.6.tar.gz"
+          hash:
+            value: "5c118a18ea897df164dbff67a32876fc"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::cfgv:3.3.1"
+        purl: "pkg:pypi/cfgv@3.3.1"
+        authors:
+        - "Anthony Sottile"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Validate configuration and produce human readable error messages."
+        homepage_url: "https://github.com/asottile/cfgv"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/6d/82/0a0ebd35bae9981dea55c06f8e6aaf44a49171ad798795c72c6f64cba4c2/cfgv-3.3.1-py2.py3-none-any.whl"
+          hash:
+            value: "b6f8d42c5f8be43f738ec2c31280644d"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/c4/bf/d0d622b660d414a47dc7f0d303791a627663f554345b21250e39e7acb48b/cfgv-3.3.1.tar.gz"
+          hash:
+            value: "4fe95d97bebfbafba3087fdb8b8804fe"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/asottile/cfgv.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::chardet:4.0.0"
+        purl: "pkg:pypi/chardet@4.0.0"
+        authors:
+        - "Mark Pilgrim"
+        declared_licenses:
+        - "GNU Library or Lesser General Public License (LGPL)"
+        - "LGPL"
+        declared_licenses_processed:
+          spdx_expression: "LGPL-2.1-or-later AND LGPL-2.0-or-later"
+          mapped:
+            GNU Library or Lesser General Public License (LGPL): "LGPL-2.1-or-later"
+            LGPL: "LGPL-2.0-or-later"
+        description: "Universal encoding detector for Python 2 and 3"
+        homepage_url: "https://github.com/chardet/chardet"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/19/c7/fa589626997dd07bd87d9269342ccb74b1720384a4d739a1872bd84fbe68/chardet-4.0.0-py2.py3-none-any.whl"
+          hash:
+            value: "504627b9b4fcd44720d5aa1345e29cc7"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b86647d567985940ac3698eeabc7ffaccb4ea61/chardet-4.0.0.tar.gz"
+          hash:
+            value: "bc9a5603d8d0994b2d4cbf255f99e654"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/chardet/chardet.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::click:8.0.1"
+        purl: "pkg:pypi/click@8.0.1"
+        authors:
+        - "Armin Ronacher"
+        declared_licenses:
+        - "BSD License"
+        - "BSD-3-Clause"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Composable command line interface toolkit"
+        homepage_url: "https://palletsprojects.com/p/click/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/76/0a/b6c5f311e32aeb3b406e03c079ade51e905ea630fc19d1262a46249c1c86/click-8.0.1-py3-none-any.whl"
+          hash:
+            value: "b0ea4bceb2610bece94ded2424ce9448"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/21/83/308a74ca1104fe1e3197d31693a7a2db67c2d4e668f20f43a2fca491f9f7/click-8.0.1.tar.gz"
+          hash:
+            value: "ff66f850b8eb4dc618b405d7fe22a0c2"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::colorama:0.4.4"
+        purl: "pkg:pypi/colorama@0.4.4"
+        authors:
+        - "Jonathan Hartley"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Cross-platform colored terminal text."
+        homepage_url: "https://github.com/tartley/colorama"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/44/98/5b86278fbbf250d239ae0ecb724f8572af1c91f4a11edf4d36a206189440/colorama-0.4.4-py2.py3-none-any.whl"
+          hash:
+            value: "1dcd07acf2b1875ed09428e1ddf7e028"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz"
+          hash:
+            value: "57b22f2597f63df051b69906fbf310cc"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/tartley/colorama.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::commonmark:0.9.1"
+        purl: "pkg:pypi/commonmark@0.9.1"
+        authors:
+        - "Bibek Kafle <bkafle662@gmail.com>, Roland Shoemaker <rolandshoemaker@gmail.com>"
+        declared_licenses:
+        - "BSD License"
+        - "BSD-3-Clause"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Python parser for the CommonMark Markdown spec"
+        homepage_url: "https://github.com/rtfd/commonmark.py"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/b1/92/dfd892312d822f36c55366118b95d914e5f16de11044a27cf10a7d71bbbf/commonmark-0.9.1-py2.py3-none-any.whl"
+          hash:
+            value: "091b5c3805fbdad90d5658ad4bf47687"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/60/48/a60f593447e8f0894ebb7f6e6c1f25dafc5e89c5879fdc9360ae93ff83f0/commonmark-0.9.1.tar.gz"
+          hash:
+            value: "cd1dc70c4714d9ed4117a40490c25e00"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/rtfd/commonmark.py.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::coverage:5.5"
+        purl: "pkg:pypi/coverage@5.5"
+        authors:
+        - "Ned Batchelder and 142 others"
+        declared_licenses:
+        - "Apache 2.0"
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache 2.0: "Apache-2.0"
+            Apache Software License: "Apache-2.0"
+        description: "Code coverage measurement for Python"
+        homepage_url: "https://github.com/nedbat/coveragepy"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/f4/ed/0315c94ccc42b8b2e995bd9ed9b3bfa8032b901fc944b444ad4ede12dfda/coverage-5.5-cp27-cp27m-macosx_10_9_x86_64.whl"
+          hash:
+            value: "e801641f4d921f9b1a4bc7ff17505b54"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/38/df/d5e67851e83948def768d7fb1a0fd373665b20f56ff63ed220c6cd16cb11/coverage-5.5.tar.gz"
+          hash:
+            value: "22e8fc8c26c46e76fb3c7f99a5f6eb92"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/nedbat/coveragepy.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::cryptography:3.3.2"
+        purl: "pkg:pypi/cryptography@3.3.2"
+        authors:
+        - "The cryptography developers"
+        declared_licenses:
+        - "Apache Software License"
+        - "BSD License"
+        - "BSD or Apache License, Version 2.0"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0 AND (BSD-3-Clause OR Apache-2.0)"
+          mapped:
+            Apache Software License: "Apache-2.0"
+            BSD or Apache License, Version 2.0: "BSD-3-Clause OR Apache-2.0"
+          unmapped:
+          - "BSD License"
+        description: "cryptography is a package which provides cryptographic recipes\
+          \ and primitives to Python developers."
+        homepage_url: "https://github.com/pyca/cryptography"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/57/1e/ec7c5823c5a80899445eed3f83b8f050ad15e314367146be5d2fa872a688/cryptography-3.3.2-cp27-cp27m-macosx_10_10_x86_64.whl"
+          hash:
+            value: "11f045b4fe9173290fc2aaa9d55cb35c"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz"
+          hash:
+            value: "e2ce2ec8a63965fad351f36ed70fde4b"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pyca/cryptography.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::dataclasses:0.8"
+        purl: "pkg:pypi/dataclasses@0.8"
+        authors:
+        - "Eric V. Smith"
+        declared_licenses:
+        - "Apache"
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache: "Apache-2.0"
+            Apache Software License: "Apache-2.0"
+        description: "A backport of the dataclasses module for Python 3.6"
+        homepage_url: "https://github.com/ericvsmith/dataclasses"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl"
+          hash:
+            value: "0d6e5bb7adcc8fb0de3ef1ace1b32999"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/1f/12/7919c5d8b9c497f9180db15ea8ead6499812ea8264a6ae18766d93c59fe5/dataclasses-0.8.tar.gz"
+          hash:
+            value: "c9a52e322ada1406bfde9ebe3cdbbcca"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/ericvsmith/dataclasses.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::distlib:0.3.2"
+        purl: "pkg:pypi/distlib@0.3.2"
+        authors:
+        - "Vinay Sajip"
+        declared_licenses:
+        - "Python Software Foundation License"
+        - "Python license"
+        declared_licenses_processed:
+          spdx_expression: "PSF-2.0"
+          mapped:
+            Python Software Foundation License: "PSF-2.0"
+          unmapped:
+          - "Python license"
+        description: "Distribution utilities"
+        homepage_url: "https://bitbucket.org/pypa/distlib"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/87/26/f6a23dd3e578132cf924e0dd5d4e055af0cd4ab43e2a9f10b7568bfb39d9/distlib-0.3.2-py2.py3-none-any.whl"
+          hash:
+            value: "1b5eeae03100b25f07025c81b215200a"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/45/97/15fdbef466e12c890553cebb1d8b1995375202e30e0c83a1e51061556143/distlib-0.3.2.zip"
+          hash:
+            value: "50196f22cc2ed82fe2cf6c8fa3220d78"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://bitbucket.org/pypa/distlib.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::docutils:0.17.1"
+        purl: "pkg:pypi/docutils@0.17.1"
+        authors:
+        - "David Goodger"
+        declared_licenses:
+        - "BSD License"
+        - "GNU General Public License (GPL)"
+        - "Public Domain"
+        - "Python Software Foundation License"
+        - "public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)"
+        declared_licenses_processed:
+          spdx_expression: "GPL-3.0-or-later AND LicenseRef-scancode-public-domain-disclaimer\
+            \ AND PSF-2.0 AND LicenseRef-scancode-public-domain-disclaimer AND Python-2.0\
+            \ AND BSD-2-Clause AND GPL-3.0-only"
+          mapped:
+            GNU General Public License (GPL): "GPL-3.0-or-later"
+            Public Domain: "LicenseRef-scancode-public-domain-disclaimer"
+            Python Software Foundation License: "PSF-2.0"
+            public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt): "LicenseRef-scancode-public-domain-disclaimer\
+              \ AND Python-2.0 AND BSD-2-Clause AND GPL-3.0-only"
+          unmapped:
+          - "BSD License"
+        description: "Docutils -- Python Documentation Utilities"
+        homepage_url: "http://docutils.sourceforge.net/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/4c/5e/6003a0d1f37725ec2ebd4046b657abb9372202655f96e76795dca8c0063c/docutils-0.17.1-py2.py3-none-any.whl"
+          hash:
+            value: "33064e11c729bd8ad8f653159fd58503"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/4c/17/559b4d020f4b46e0287a2eddf2d8ebf76318fd3bd495f1625414b052fdc9/docutils-0.17.1.tar.gz"
+          hash:
+            value: "ed810564c25063e9dac10dd0893ead47"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::filelock:3.0.12"
+        purl: "pkg:pypi/filelock@3.0.12"
+        authors:
+        - "Benedikt Schmitt"
+        declared_licenses:
+        - "Public Domain"
+        - "Public Domain <http://unlicense.org>"
+        declared_licenses_processed:
+          spdx_expression: "LicenseRef-scancode-public-domain-disclaimer"
+          mapped:
+            Public Domain: "LicenseRef-scancode-public-domain-disclaimer"
+            Public Domain <http://unlicense.org>: "LicenseRef-scancode-public-domain-disclaimer"
+        description: "A platform independent file lock."
+        homepage_url: "https://github.com/benediktschmitt/py-filelock"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/93/83/71a2ee6158bb9f39a90c0dea1637f81d5eef866e188e1971a1b1ab01a35a/filelock-3.0.12-py3-none-any.whl"
+          hash:
+            value: "6ba8f81427ba4566f249684b563b9db4"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/14/ec/6ee2168387ce0154632f856d5cc5592328e9cf93127c5c9aeca92c8c16cb/filelock-3.0.12.tar.gz"
+          hash:
+            value: "c1fe6d9a7433a7ca6ce4f36e273317d1"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/benediktschmitt/py-filelock.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::identify:2.2.14"
+        purl: "pkg:pypi/identify@2.2.14"
+        authors:
+        - "Chris Kuehl"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "File identification library for Python"
+        homepage_url: "https://github.com/pre-commit/identify"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/c0/4a/d40673617abc6af821238dad6ca8055b3ad97be5ce582132a41267791100/identify-2.2.14-py2.py3-none-any.whl"
+          hash:
+            value: "a0276c04b939299ff4dfc24b3b901ed6"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/41/27/01746b4bc5de24e307ba62d1fc637522fb0475e4ecbec947a2e4fdba698e/identify-2.2.14.tar.gz"
+          hash:
+            value: "fb2b0f9a59e5b5edcd27c5f43b9f7984"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pre-commit/identify.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::idna:2.10"
+        purl: "pkg:pypi/idna@2.10"
+        authors:
+        - "Kim Davies"
+        declared_licenses:
+        - "BSD License"
+        - "BSD-like"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD-like: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Internationalized Domain Names in Applications (IDNA)"
+        homepage_url: "https://github.com/kjd/idna"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/a2/38/928ddce2273eaa564f6f50de919327bf3a00f091b5baba8dfa9460f3a8a8/idna-2.10-py2.py3-none-any.whl"
+          hash:
+            value: "8f7d13f63706aa265d31ffedc8aa3053"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/ea/b7/e0e3c1c467636186c39925827be42f16fee389dc404ac29e930e9136be70/idna-2.10.tar.gz"
+          hash:
+            value: "7a910c706db30d758f377db2762c0f9a"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/kjd/idna.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::imagesize:1.2.0"
+        purl: "pkg:pypi/imagesize@1.2.0"
+        authors:
+        - "Yoshiki Shibukawa"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Getting image size from png/jpeg/jpeg2000/gif file"
+        homepage_url: "https://github.com/shibukawa/imagesize_py"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/31/b2/b5522a0c8d11e4aff83f8342f3f0dea68c2fb25aa44403e420587f0ce204/imagesize-1.2.0-py2.py3-none-any.whl"
+          hash:
+            value: "68367ae95abf2f3a53cef3b690b47d00"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/e4/9f/0452b459c8ba97e07c3cd2bd243783936a992006cf4cd1353c314a927028/imagesize-1.2.0.tar.gz"
+          hash:
+            value: "3a1e124594183778a8f87e4bcdb6dca9"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/shibukawa/imagesize_py.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::importlib-metadata:4.8.1"
+        purl: "pkg:pypi/importlib-metadata@4.8.1"
+        authors:
+        - "Jason R. Coombs"
+        declared_licenses:
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache Software License: "Apache-2.0"
+        description: "Read metadata from Python packages"
+        homepage_url: "https://github.com/python/importlib_metadata"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/71/c2/cb1855f0b2a0ae9ccc9b69f150a7aebd4a8d815bd951e74621c4154c52a8/importlib_metadata-4.8.1-py3-none-any.whl"
+          hash:
+            value: "542a9a2b61f9f61122b95d1dac782ba2"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/f0/70/ca3dd67cdd368b957e73a8156f7e1a10339f9813e314cb8b4549526070da/importlib_metadata-4.8.1.tar.gz"
+          hash:
+            value: "5b944bce3fccaf848f0cba7a07f850a1"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/python/importlib_metadata.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::importlib-resources:5.2.2"
+        purl: "pkg:pypi/importlib-resources@5.2.2"
+        authors:
+        - "Barry Warsaw"
+        declared_licenses:
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache Software License: "Apache-2.0"
+        description: "Read resources from Python packages"
+        homepage_url: "https://github.com/python/importlib_resources"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/f2/6c/2f3b930513bb971172ffceb63cf4e910944e57451724e69b1dec97cfefa6/importlib_resources-5.2.2-py3-none-any.whl"
+          hash:
+            value: "3ef0d7ff26fa3fe5fc37b82fbb173abb"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/b1/7a/b9e2309e5c619ba3da8806e43bb17873ec6eab22a3d79347778c80563028/importlib_resources-5.2.2.tar.gz"
+          hash:
+            value: "5db738106ca7c05340495c36357986a2"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/python/importlib_resources.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::iniconfig:1.1.1"
+        purl: "pkg:pypi/iniconfig@1.1.1"
+        authors:
+        - "Ronny Pfannschmidt, Holger Krekel"
+        declared_licenses:
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "iniconfig: brain-dead simple config-ini parsing"
+        homepage_url: "http://github.com/RonnyPfannschmidt/iniconfig"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/9b/dd/b3c12c6d707058fa947864b67f0c4e0c39ef8610988d7baea9578f3c48f3/iniconfig-1.1.1-py2.py3-none-any.whl"
+          hash:
+            value: "90f3e1bb7ced782f2b04eb5af266ecb7"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/23/a2/97899f6bd0e873fed3a7e67ae8d3a08b21799430fb4da15cfedf10d6e2c2/iniconfig-1.1.1.tar.gz"
+          hash:
+            value: "0b7f3be87481211c183eae095bcea6f1"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/RonnyPfannschmidt/iniconfig.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::isort:5.7.0"
+        purl: "pkg:pypi/isort@5.7.0"
+        authors:
+        - "Timothy Crosley"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "A Python utility / library to sort Python imports."
+        homepage_url: "https://pycqa.github.io/isort/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/cc/89/6888f573886e9dc0906ec98f1b15888de20919a142c355d7f57ebd977d36/isort-5.7.0-py3-none-any.whl"
+          hash:
+            value: "b41783bc6a804854a8fd6e2dbf9c7ace"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/a2/f7/f50fc9555dc0fe2dc1e7f69d93f71961d052857c296cad0fb6d275b20008/isort-5.7.0.tar.gz"
+          hash:
+            value: "941d03d2389b0eb091738b4f0ff5e365"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::jeepney:0.7.1"
+        purl: "pkg:pypi/jeepney@0.7.1"
+        authors:
+        - "Thomas Kluyver"
+        declared_licenses:
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Low-level, pure Python DBus protocol wrapper."
+        homepage_url: "https://gitlab.com/takluyver/jeepney"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/14/b8/bb3e34d71472140f9bfdf5d77cd063e2cc964b72b1bb0b70fe3c1e7db932/jeepney-0.7.1-py3-none-any.whl"
+          hash:
+            value: "22e7c84e1eadffad5299f40cc31d1e21"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/09/0d/81744e179cf3aede2d117c20c6d5b97a62ffe16b2ca5d856e068e81c7a68/jeepney-0.7.1.tar.gz"
+          hash:
+            value: "d804ad938b27d9b761f2c44f8d33fef6"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://gitlab.com/takluyver/jeepney.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::jinja2:2.11.3"
+        purl: "pkg:pypi/jinja2@2.11.3"
+        authors:
+        - "Armin Ronacher"
+        declared_licenses:
+        - "BSD License"
+        - "BSD-3-Clause"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "A very fast and expressive template engine."
+        homepage_url: "https://palletsprojects.com/p/jinja/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/7e/c2/1eece8c95ddbc9b1aeb64f5783a9e07a286de42191b7204d67b7496ddf35/Jinja2-2.11.3-py2.py3-none-any.whl"
+          hash:
+            value: "8e733c6f4cdef7f6a336299e8e548dfa"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/4f/e7/65300e6b32e69768ded990494809106f87da1d436418d5f1367ed3966fd7/Jinja2-2.11.3.tar.gz"
+          hash:
+            value: "231dc00d34afb2672c497713fa9cdaaa"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::keyring:23.2.1"
+        purl: "pkg:pypi/keyring@23.2.1"
+        authors:
+        - "Kang Zhang"
+        declared_licenses:
+        - "MIT License"
+        - "Python Software Foundation License"
+        declared_licenses_processed:
+          spdx_expression: "MIT AND PSF-2.0"
+          mapped:
+            MIT License: "MIT"
+            Python Software Foundation License: "PSF-2.0"
+        description: "Store and access your passwords safely."
+        homepage_url: "https://github.com/jaraco/keyring"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/58/b7/cc5a5321a6119e23ee85745ba204a67d646835e8882ba36eece32ee2b4e1/keyring-23.2.1-py3-none-any.whl"
+          hash:
+            value: "31507078eb2964300c863e7e08d883b1"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/cc/24/c5402ba0c6380cc058980e2b73f0597ab6875692f185054a94244b7161ab/keyring-23.2.1.tar.gz"
+          hash:
+            value: "fc4c3db9b8d08586fb8be40fc82dff20"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/jaraco/keyring.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::lazy-object-proxy:1.6.0"
+        purl: "pkg:pypi/lazy-object-proxy@1.6.0"
+        authors:
+        - "Ionel Cristian Mărieș"
+        declared_licenses:
+        - "BSD License"
+        - "BSD-2-Clause"
+        declared_licenses_processed:
+          spdx_expression: "BSD-2-Clause"
+          unmapped:
+          - "BSD License"
+        description: "A fast and thorough lazy object proxy."
+        homepage_url: "https://github.com/ionelmc/python-lazy-object-proxy"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/5d/5d/f7a2ae1d9e6b6c536ae8adc6f6d190590fe9b5d7a174da0f5b03013c59cb/lazy_object_proxy-1.6.0-cp27-cp27m-macosx_10_14_x86_64.whl"
+          hash:
+            value: "d4de51675ff29978fde628614a468edd"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/bb/f5/646893a04dcf10d4acddb61c632fd53abb3e942e791317dcdd57f5800108/lazy-object-proxy-1.6.0.tar.gz"
+          hash:
+            value: "0b99101615658aa711cb55c8db4930d5"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/ionelmc/python-lazy-object-proxy.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::license-expression:1.2"
+        purl: "pkg:pypi/license-expression@1.2"
+        authors:
+        - "nexB Inc."
+        declared_licenses:
+        - "Apache Software License"
+        - "apache-2.0"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache Software License: "Apache-2.0"
+            apache-2.0: "Apache-2.0"
+        description: "license-expression is small utility library to parse, compare,\
+          \ simplify and normalize license expressions (such as SPDX license expressions)\
+          \ using boolean logic."
+        homepage_url: "https://github.com/nexB/license-expression"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/16/5d/a1f7fb7bd4f2bf1f8e065d40334d3bb8115f904ca3f86c9d0800281c9941/license_expression-1.2-py2.py3-none-any.whl"
+          hash:
+            value: "dc7bf41e6e232cabdc36f6c206c55710"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/4f/86/74f99e01eb37895b67484415451ae14c0543e7ff9b27f550ed7c5c80d3d0/license-expression-1.2.tar.gz"
+          hash:
+            value: "fd4cb295cc345be1071274cdbd81c969"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/nexB/license-expression.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::markupsafe:2.0.1"
+        purl: "pkg:pypi/markupsafe@2.0.1"
+        authors:
+        - "Armin Ronacher"
+        declared_licenses:
+        - "BSD License"
+        - "BSD-3-Clause"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Safely add untrusted strings to HTML/XML markup."
+        homepage_url: "https://palletsprojects.com/p/markupsafe/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/81/8b/f28eac2790d49dde61f89ae9e007ac65002edc90bb2dd63c3b9e653820d2/MarkupSafe-2.0.1-cp310-cp310-macosx_10_9_universal2.whl"
+          hash:
+            value: "f42b3feff99f5f5f0fa9637d2e790288"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/bf/10/ff66fea6d1788c458663a84d88787bae15d45daa16f6b3ef33322a51fc7e/MarkupSafe-2.0.1.tar.gz"
+          hash:
+            value: "892e0fefa3c488387e5cc0cad2daa523"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::mccabe:0.6.1"
+        purl: "pkg:pypi/mccabe@0.6.1"
+        authors:
+        - "Ian Cordasco"
+        declared_licenses:
+        - "Expat license"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            Expat license: "MIT"
+            MIT License: "MIT"
+        description: "McCabe checker, plugin for flake8"
+        homepage_url: "https://github.com/pycqa/mccabe"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/87/89/479dc97e18549e21354893e4ee4ef36db1d237534982482c3681ee6e7b57/mccabe-0.6.1-py2.py3-none-any.whl"
+          hash:
+            value: "6afffd590703262843327af8c4051928"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/06/18/fa675aa501e11d6d6ca0ae73a101b2f3571a565e0f7d38e062eec18a91ee/mccabe-0.6.1.tar.gz"
+          hash:
+            value: "723df2f7b1737b8887475bac4c763e1e"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pycqa/mccabe.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::mypy-extensions:0.4.3"
+        purl: "pkg:pypi/mypy-extensions@0.4.3"
+        authors:
+        - "The mypy developers"
+        declared_licenses:
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Experimental type system extensions for programs checked with\
+          \ the mypy typechecker."
+        homepage_url: "https://github.com/python/mypy_extensions"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/5c/eb/975c7c080f3223a5cdaff09612f3a5221e4ba534f7039db34c35d95fa6a5/mypy_extensions-0.4.3-py2.py3-none-any.whl"
+          hash:
+            value: "b9c790261bc8932c80b5938c69e5b65f"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/63/60/0582ce2eaced55f65a4406fc97beba256de4b7a95a0034c6576458c6519f/mypy_extensions-0.4.3.tar.gz"
+          hash:
+            value: "4163ff73d0db8631c0a78bb55b551c84"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/python/mypy_extensions.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::nodeenv:1.6.0"
+        purl: "pkg:pypi/nodeenv@1.6.0"
+        authors:
+        - "Eugene Kalinin"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Node.js virtual environment builder"
+        homepage_url: "https://github.com/ekalinin/nodeenv"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/54/73/56c89b343befb9c63e8117294d265458f0ff726fa2abcdc6bb5ec5e66a1a/nodeenv-1.6.0-py2.py3-none-any.whl"
+          hash:
+            value: "17f16ab109c42ede6cb615e1d3ff62ce"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/75/8d/14c4ac588711f8de0dd02a11460ed72f48cab65a998994ca20f40c6e1a8f/nodeenv-1.6.0.tar.gz"
+          hash:
+            value: "b455514f36a6505a7292c5c0a4414779"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/ekalinin/nodeenv.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::packaging:21.0"
+        purl: "pkg:pypi/packaging@21.0"
+        authors:
+        - "Donald Stufft and individual contributors"
+        declared_licenses:
+        - "Apache Software License"
+        - "BSD License"
+        - "BSD-2-Clause or Apache-2.0"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0 AND (BSD-2-Clause OR Apache-2.0)"
+          mapped:
+            Apache Software License: "Apache-2.0"
+            BSD-2-Clause or Apache-2.0: "BSD-2-Clause OR Apache-2.0"
+          unmapped:
+          - "BSD License"
+        description: "Core utilities for Python packages"
+        homepage_url: "https://github.com/pypa/packaging"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/3c/77/e2362b676dc5008d81be423070dd9577fa03be5da2ba1105811900fda546/packaging-21.0-py3-none-any.whl"
+          hash:
+            value: "650984360b6e8c0946f0b5a13751b988"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/df/86/aef78bab3afd461faecf9955a6501c4999933a48394e90f03cd512aad844/packaging-21.0.tar.gz"
+          hash:
+            value: "240ba5823ed31051a1254e74c9d18d55"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pypa/packaging.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pathspec:0.9.0"
+        purl: "pkg:pypi/pathspec@0.9.0"
+        authors:
+        - "Caleb P. Burns"
+        declared_licenses:
+        - "MPL 2.0"
+        - "Mozilla Public License 2.0 (MPL 2.0)"
+        declared_licenses_processed:
+          spdx_expression: "MPL-2.0"
+          mapped:
+            MPL 2.0: "MPL-2.0"
+            Mozilla Public License 2.0 (MPL 2.0): "MPL-2.0"
+        description: "Utility library for gitignore style pattern matching of file\
+          \ paths."
+        homepage_url: "https://github.com/cpburnz/python-path-specification"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/42/ba/a9d64c7bcbc7e3e8e5f93a52721b377e994c22d16196e2b0f1236774353a/pathspec-0.9.0-py2.py3-none-any.whl"
+          hash:
+            value: "ffa2e0227d4eef53c5329af611e26c32"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/f6/33/436c5cb94e9f8902e59d1d544eb298b83c84b9ec37b5b769c5a0ad6edb19/pathspec-0.9.0.tar.gz"
+          hash:
+            value: "9b6b70fa5ffc31e6f5700522880140c0"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/cpburnz/python-path-specification.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pbr:5.6.0"
+        purl: "pkg:pypi/pbr@5.6.0"
+        authors:
+        - "OpenStack"
+        declared_licenses:
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache Software License: "Apache-2.0"
+        description: "Python Build Reasonableness"
+        homepage_url: "https://docs.openstack.org/pbr/latest/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/18/e0/1d4702dd81121d04a477c272d47ee5b6bc970d1a0990b11befa275c55cf2/pbr-5.6.0-py2.py3-none-any.whl"
+          hash:
+            value: "b2fa7981da74054bcd29e28b8750263c"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/35/8c/69ed04ae31ad498c9bdea55766ed4c0c72de596e75ac0d70b58aa25e0acf/pbr-5.6.0.tar.gz"
+          hash:
+            value: "62565acc6bf3e7e10b082463421f8b46"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pkginfo:1.7.1"
+        purl: "pkg:pypi/pkginfo@1.7.1"
+        authors:
+        - "Tres Seaver, Agendaless Consulting"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Query metadatdata from sdists / bdists / installed packages."
+        homepage_url: "https://code.launchpad.net/~tseaver/pkginfo/trunk"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/77/83/1ef010f7c4563e218854809c0dff9548de65ebec930921dedf6ee5981f27/pkginfo-1.7.1-py2.py3-none-any.whl"
+          hash:
+            value: "88cfb340c02511e23582aa2dfc8b8774"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/23/3f/f2251c754073cda0f00043a707cba7db103654722a9afed965240a0b2b43/pkginfo-1.7.1.tar.gz"
+          hash:
+            value: "9f437b69c1f0dd8333968dce61e64e49"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::platformdirs:2.3.0"
+        purl: "pkg:pypi/platformdirs@2.3.0"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "A small Python module for determining appropriate platform-specific\
+          \ dirs, e.g. a \"user data dir\"."
+        homepage_url: "https://github.com/platformdirs/platformdirs"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/15/4d/23989bdcb80a095a4b92a54a1f568e95bfc9793c70707be623dc75c11257/platformdirs-2.3.0-py3-none-any.whl"
+          hash:
+            value: "df4989e8858f0d025491f0a918a95d69"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/e2/d4/c6ffe89de09851892b1418dc22f6ab019b7b6f362532ab813c262e1722bb/platformdirs-2.3.0.tar.gz"
+          hash:
+            value: "8fa046db34b7f34b047a501c6ec2c845"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/platformdirs/platformdirs.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pluggy:0.13.1"
+        purl: "pkg:pypi/pluggy@0.13.1"
+        authors:
+        - "Holger Krekel"
+        declared_licenses:
+        - "MIT License"
+        - "MIT license"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+            MIT license: "MIT"
+        description: "plugin and hook calling mechanisms for python"
+        homepage_url: "https://github.com/pytest-dev/pluggy"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl"
+          hash:
+            value: "32a771dc4df48273d4967e5aab043653"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/f8/04/7a8542bed4b16a65c2714bf76cf5a0b026157da7f75e87cc88774aa10b14/pluggy-0.13.1.tar.gz"
+          hash:
+            value: "7f610e28b8b34487336b585a3dfb803d"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pytest-dev/pluggy.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pre-commit:2.9.3"
+        purl: "pkg:pypi/pre-commit@2.9.3"
+        authors:
+        - "Anthony Sottile"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "A framework for managing and maintaining multi-language pre-commit\
+          \ hooks."
+        homepage_url: "https://github.com/pre-commit/pre-commit"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/1e/ab/191c8d1dbd179b6577cd9a5744e56aede754776905b9dc9c524b21607cf6/pre_commit-2.9.3-py2.py3-none-any.whl"
+          hash:
+            value: "26bc851498db3f210456d67112e0d60c"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/b1/7b/1536387577a2f01d6aea901b9331319a9f927725bfbfae78ddb7200141cc/pre_commit-2.9.3.tar.gz"
+          hash:
+            value: "762ddaff36f1b9055e62f963eb85a3ab"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pre-commit/pre-commit.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::py:1.10.0"
+        purl: "pkg:pypi/py@1.10.0"
+        authors:
+        - "holger krekel, Ronny Pfannschmidt, Benjamin Peterson and others"
+        declared_licenses:
+        - "MIT License"
+        - "MIT license"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+            MIT license: "MIT"
+        description: "library with cross-python path, ini-parsing, io, code, log facilities"
+        homepage_url: "https://py.readthedocs.io/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/67/32/6fe01cfc3d1a27c92fdbcdfc3f67856da8cbadf0dd9f2e18055202b2dc62/py-1.10.0-py2.py3-none-any.whl"
+          hash:
+            value: "025a8dee6cd7e51790536da11d4a5aff"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/0d/8c/50e9f3999419bb7d9639c37e83fa9cdcf0f601a9d407162d6c37ad60be71/py-1.10.0.tar.gz"
+          hash:
+            value: "5f108bfe00d5468cbdb8071051f86a55"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pycparser:2.20"
+        purl: "pkg:pypi/pycparser@2.20"
+        authors:
+        - "Eli Bendersky"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "C parser in Python"
+        homepage_url: "https://github.com/eliben/pycparser"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/ae/e7/d9c3a176ca4b02024debf82342dab36efadfc5776f9c8db077e8f6e71821/pycparser-2.20-py2.py3-none-any.whl"
+          hash:
+            value: "61112f106163fef25a95b73ad471c4cc"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/0f/86/e19659527668d70be91d0369aeaa055b4eb396b0f387a4f92293a20035bd/pycparser-2.20.tar.gz"
+          hash:
+            value: "b8f88de737db8c346ee8d31c07c7a25a"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/eliben/pycparser.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pygments:2.10.0"
+        purl: "pkg:pypi/pygments@2.10.0"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD License"
+        declared_licenses_processed:
+          unmapped:
+          - "BSD License"
+        description: "Pygments is a syntax highlighting package written in Python."
+        homepage_url: "https://pygments.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/78/c8/8d9be2f72d8f465461f22b5f199c04f7ada933add4dae6e2468133c17471/Pygments-2.10.0-py3-none-any.whl"
+          hash:
+            value: "23ad6b4ae954b138728c09d8668f225e"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/b7/b3/5cba26637fe43500d4568d0ee7b7362de1fb29c0e158d50b4b69e9a40422/Pygments-2.10.0.tar.gz"
+          hash:
+            value: "87369a4e15019caf9cf056ab2c5858b3"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pylint:2.6.0"
+        purl: "pkg:pypi/pylint@2.6.0"
+        authors:
+        - "Python Code Quality Authority"
+        declared_licenses:
+        - "GNU General Public License (GPL)"
+        - "GPL"
+        declared_licenses_processed:
+          spdx_expression: "GPL-3.0-or-later AND GPL-2.0-or-later"
+          mapped:
+            GNU General Public License (GPL): "GPL-3.0-or-later"
+            GPL: "GPL-2.0-or-later"
+        description: "python code static checker"
+        homepage_url: "https://github.com/PyCQA/pylint"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/fb/13/519c1264a134beab2be4bac8dd3e64948980a5ca7833b31cf0255b21f20a/pylint-2.6.0-py3-none-any.whl"
+          hash:
+            value: "dc0dc052b2457121893ae03a58d56ac7"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/24/4a/a07484119d23283de4d8db8176e85be3b20583eefc1cbfa8363b1414fbe2/pylint-2.6.0.tar.gz"
+          hash:
+            value: "7db013001ada7c2a4383818cbc593326"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/PyCQA/pylint.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pyparsing:2.4.7"
+        purl: "pkg:pypi/pyparsing@2.4.7"
+        authors:
+        - "Paul McGuire"
+        declared_licenses:
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Python parsing module"
+        homepage_url: "https://github.com/pyparsing/pyparsing/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl"
+          hash:
+            value: "dbfd0a241aad2595f43377ec7f1836ea"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/c1/47/dfc9c342c9842bbe0036c7f763d2d6686bcf5eb1808ba3e170afdb282210/pyparsing-2.4.7.tar.gz"
+          hash:
+            value: "f0953e47a0112f7a65aec2305ffdf7b4"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pyparsing/pyparsing.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pytest:6.2.2"
+        purl: "pkg:pypi/pytest@6.2.2"
+        authors:
+        - "Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna\
+          \ Laugher, Florian Bruhin and others"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "pytest: simple powerful testing with Python"
+        homepage_url: "https://docs.pytest.org/en/latest/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/a1/cf/7f67585bd2fc0359ec482cf3c430bce3ef6d3f40bc468137225a733e3069/pytest-6.2.2-py3-none-any.whl"
+          hash:
+            value: "f03f54aad095686ef628a80964c52128"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/d1/80/b4f47a1f933699cd531a7b336a6f3d82912e3e5e66e4a3bb1d8f0d1d98b0/pytest-6.2.2.tar.gz"
+          hash:
+            value: "828d15f426ce9740627a9b07e47a318a"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pytest-cov:2.11.1"
+        purl: "pkg:pypi/pytest-cov@2.11.1"
+        authors:
+        - "Marc Schlaich"
+        declared_licenses:
+        - "BSD License"
+        - "MIT"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          unmapped:
+          - "BSD License"
+        description: "Pytest plugin for measuring coverage."
+        homepage_url: "https://github.com/pytest-dev/pytest-cov"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/e3/1a/6affecd2344efee7f2487fac82242474cbac09f9e04929da5944907baf11/pytest_cov-2.11.1-py2.py3-none-any.whl"
+          hash:
+            value: "f56141a69bed0b5f1898107aacf979fd"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/9b/7b/b8631778c37fdb615f568d97959ba5176a9860271c5deecf234750a37ffa/pytest-cov-2.11.1.tar.gz"
+          hash:
+            value: "432b49edc19d17c21f660a77c9fa2b31"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pytest-dev/pytest-cov.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::python-debian:0.1.38"
+        purl: "pkg:pypi/python-debian@0.1.38"
+        declared_licenses:
+        - "DFSG approved"
+        - "GNU General Public License v2 or later (GPLv2+)"
+        - "GPL-2+"
+        declared_licenses_processed:
+          spdx_expression: "LicenseRef-scancode-free-unknown AND GPL-2.0-or-later"
+          mapped:
+            DFSG approved: "LicenseRef-scancode-free-unknown"
+            GNU General Public License v2 or later (GPLv2+): "GPL-2.0-or-later"
+          unmapped:
+          - "GPL-2+"
+        description: "Debian package related modules"
+        homepage_url: "https://salsa.debian.org/python-debian-team/python-debian"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/4d/a4/4baa4acf0cb626fc4e4542001dbfb0d0821fd1429d3cdd8b28dbca77e8b8/python_debian-0.1.38-py3-none-any.whl"
+          hash:
+            value: "75a9bb49db56c8e654feb9d8aa7ae0a9"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/99/b6/5c748994f5085f419bbc0c508a9265c56544e853f7d6aa31316cf9e327af/python-debian-0.1.38.tar.gz"
+          hash:
+            value: "779efdae502b86f2a7ba7afe4ab7bb87"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pytz:2021.1"
+        purl: "pkg:pypi/pytz@2021.1"
+        authors:
+        - "Stuart Bishop"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "World timezone definitions, modern and historical"
+        homepage_url: "http://pythonhosted.org/pytz"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl"
+          hash:
+            value: "2e039ef05cc965ffe161b3a8af018431"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/b0/61/eddc6eb2c682ea6fd97a7e1018a6294be80dba08fa28e7a3570148b4612d/pytz-2021.1.tar.gz"
+          hash:
+            value: "8c849bdf95414fe708a84473e42d4406"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::pyyaml:5.4.1"
+        purl: "pkg:pypi/pyyaml@5.4.1"
+        authors:
+        - "Kirill Simonov"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "YAML parser and emitter for Python"
+        homepage_url: "https://pyyaml.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/42/c5/440fd6200c345c3d522fbe47a52558733c4661aac3c8cf06b7de31bababd/PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl"
+          hash:
+            value: "49b34e7486fee91e901be778c326de73"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz"
+          hash:
+            value: "46e25294c7efec23d4072ed6a7777f46"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::readme-renderer:29.0"
+        purl: "pkg:pypi/readme-renderer@29.0"
+        authors:
+        - "The Python Packaging Authority"
+        declared_licenses:
+        - "Apache License, Version 2.0"
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache License, Version 2.0: "Apache-2.0"
+            Apache Software License: "Apache-2.0"
+        description: "readme_renderer is a library for rendering \"readme\" descriptions\
+          \ for Warehouse"
+        homepage_url: "https://github.com/pypa/readme_renderer"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/39/a5/459adfa22ea237f6e8d0fa95ad29d7369579a5eec26f016ab34bb7f8359c/readme_renderer-29.0-py2.py3-none-any.whl"
+          hash:
+            value: "d48804697c19b4c6580c3e21b102bbce"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/f4/be/09db3768f2f426c6427487c1b2d2de427f615bcb8d52aab3782124d4e57a/readme_renderer-29.0.tar.gz"
+          hash:
+            value: "8a484bb63c11a391faa5291ad373e0d0"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pypa/readme_renderer.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::recommonmark:0.7.1"
+        purl: "pkg:pypi/recommonmark@0.7.1"
+        authors:
+        - "UNKNOWN"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "A docutils-compatibility bridge to CommonMark, enabling you\
+          \ to write CommonMark inside of Docutils & Sphinx projects."
+        homepage_url: "https://github.com/rtfd/recommonmark"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/c6/77/ed589c75db5d02a77a1d5d2d9abc63f29676467d396c64277f98b50b79c2/recommonmark-0.7.1-py2.py3-none-any.whl"
+          hash:
+            value: "ae65c083a1f49cc8f89aa37e19e5d005"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/1c/00/3dd2bdc4184b0ce754b5b446325abf45c2e0a347e022292ddc44670f628c/recommonmark-0.7.1.tar.gz"
+          hash:
+            value: "3c550a76eb62006bf007843a9f1805bb"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/rtfd/recommonmark.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::regex:2021.8.28"
+        purl: "pkg:pypi/regex@2021.8.28"
+        authors:
+        - "Matthew Barnett"
+        declared_licenses:
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache Software License: "Apache-2.0"
+        description: "Alternative regular expression module, to replace re."
+        homepage_url: "https://bitbucket.org/mrabarnett/mrab-regex"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/88/b7/070daf615b1a4563605b1725212f7fb5b13e383c2dcb13e0526e4aadb372/regex-2021.8.28-cp310-cp310-macosx_10_9_x86_64.whl"
+          hash:
+            value: "1b6709d4262181ebd2563deb65872551"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/15/bd/88d793c2e39b1e91c070bf4d1317db599b1c22efbf6bd194bb568064af21/regex-2021.8.28.tar.gz"
+          hash:
+            value: "a8fc8b98b30f816eda5ed5c351ab6c9d"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://bitbucket.org/mrabarnett/mrab-regex.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::requests:2.25.1"
+        purl: "pkg:pypi/requests@2.25.1"
+        authors:
+        - "Kenneth Reitz"
+        declared_licenses:
+        - "Apache 2.0"
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache 2.0: "Apache-2.0"
+            Apache Software License: "Apache-2.0"
+        description: "Python HTTP for Humans."
+        homepage_url: "https://requests.readthedocs.io"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/29/c1/24814557f1d22c56d50280771a17307e6bf87b70727d975fd6b2ce6b014a/requests-2.25.1-py2.py3-none-any.whl"
+          hash:
+            value: "ec79209809129bf13cb002a0a573ef45"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/6b/47/c14abc08432ab22dc18b9892252efaf005ab44066de871e72a38d6af464b/requests-2.25.1.tar.gz"
+          hash:
+            value: "514d6f7eba77ada0b8c98ec7818828db"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::requests-toolbelt:0.9.1"
+        purl: "pkg:pypi/requests-toolbelt@0.9.1"
+        authors:
+        - "Ian Cordasco, Cory Benfield"
+        declared_licenses:
+        - "Apache 2.0"
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache 2.0: "Apache-2.0"
+            Apache Software License: "Apache-2.0"
+        description: "A utility belt for advanced users of python-requests"
+        homepage_url: "https://toolbelt.readthedocs.org"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/60/ef/7681134338fc097acef8d9b2f8abe0458e4d87559c689a8c306d0957ece5/requests_toolbelt-0.9.1-py2.py3-none-any.whl"
+          hash:
+            value: "f3c670220285a4cf8c5cbf1033090461"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/28/30/7bf7e5071081f761766d46820e52f4b16c8a08fef02d2eb4682ca7534310/requests-toolbelt-0.9.1.tar.gz"
+          hash:
+            value: "b1509735c4b4cf95df2619facbc3672e"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::rfc3986:1.5.0"
+        purl: "pkg:pypi/rfc3986@1.5.0"
+        authors:
+        - "Ian Stapleton Cordasco"
+        declared_licenses:
+        - "Apache 2.0"
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache 2.0: "Apache-2.0"
+            Apache Software License: "Apache-2.0"
+        description: "Validating URI References per RFC 3986"
+        homepage_url: "http://rfc3986.readthedocs.io"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/c4/e5/63ca2c4edf4e00657584608bee1001302bbf8c5f569340b78304f2f446cb/rfc3986-1.5.0-py2.py3-none-any.whl"
+          hash:
+            value: "7f72f95f22ce02cd7e286166322580be"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/79/30/5b1b6c28c105629cc12b33bdcbb0b11b5bb1880c6cfbd955f9e792921aa8/rfc3986-1.5.0.tar.gz"
+          hash:
+            value: "0e3a03c3eb3b679d5a253b168bb5774a"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::secretstorage:3.3.1"
+        purl: "pkg:pypi/secretstorage@3.3.1"
+        authors:
+        - "Dmitry Shachnev"
+        declared_licenses:
+        - "BSD 3-Clause License"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD 3-Clause License: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Python bindings to FreeDesktop.org Secret Service API"
+        homepage_url: "https://github.com/mitya57/secretstorage"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/d9/1e/29cd69fdac7391aa51510dfd42aa70b4e6a826c8cd019ee2a8ab9ec0777f/SecretStorage-3.3.1-py3-none-any.whl"
+          hash:
+            value: "8fed37e08fe059887ec3ba9e9e37f54c"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/cd/08/758aeb98db87547484728ea08b0292721f1b05ff9005f59b040d6203c009/SecretStorage-3.3.1.tar.gz"
+          hash:
+            value: "23563c1d167c51e3d9483479cd7caccd"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/mitya57/secretstorage.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::setuptools:52.0.0"
+        purl: "pkg:pypi/setuptools@52.0.0"
+        authors:
+        - "Python Packaging Authority"
+        declared_licenses:
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Easily download, build, install, upgrade, and uninstall Python\
+          \ packages"
+        homepage_url: "https://github.com/pypa/setuptools"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/f7/30/f963996d7efea5a336455a3c727711469280c318e2711e295007dea04d7e/setuptools-52.0.0-py3-none-any.whl"
+          hash:
+            value: "1f5b1f2d985d260c216647cfbcdce19c"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/84/48/5c99d8770fd0a9eb0f82654c3294aad6d0ba9f8600638c2e2ad74f2c5d52/setuptools-52.0.0.tar.gz"
+          hash:
+            value: "ea7e8c5295323ad56594607e999e2c98"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pypa/setuptools.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::setuptools-scm:5.0.1"
+        purl: "pkg:pypi/setuptools-scm@5.0.1"
+        authors:
+        - "Ronny Pfannschmidt"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "the blessed package to manage your versions by scm tags"
+        homepage_url: "https://github.com/pypa/setuptools_scm/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/db/6e/2815f7c8561b088ccedc128681e64daac3d6b2e81a9918b007e244dad8b1/setuptools_scm-5.0.1-py2.py3-none-any.whl"
+          hash:
+            value: "83bac3fae358d19bf03f39d9687efea5"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/af/df/f8aa8a78d4d29e0cffa4512e9bc223ed02f24893fe1837c6cee2749ebd67/setuptools_scm-5.0.1.tar.gz"
+          hash:
+            value: "c11bf23d80224691a46ee5deb84c42db"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/pypa/setuptools_scm.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::six:1.16.0"
+        purl: "pkg:pypi/six@1.16.0"
+        authors:
+        - "Benjamin Peterson"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Python 2 and 3 compatibility utilities"
+        homepage_url: "https://github.com/benjaminp/six"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl"
+          hash:
+            value: "529d7fd7e14612ccde86417b4402d6f3"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
+          hash:
+            value: "a7c927740e4964dd29b72cebfc1429bb"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/benjaminp/six.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::snowballstemmer:2.1.0"
+        purl: "pkg:pypi/snowballstemmer@2.1.0"
+        authors:
+        - "Snowball Developers"
+        declared_licenses:
+        - "BSD License"
+        - "BSD-3-Clause"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "This package provides 29 stemmers for 28 languages generated\
+          \ from Snowball algorithms."
+        homepage_url: "https://github.com/snowballstem/snowball"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/f6/6e/7e07970c90a57c21da92013c5ba47f8e9598c17e88cc35b008ca61225ed3/snowballstemmer-2.1.0-py2.py3-none-any.whl"
+          hash:
+            value: "007afee514690e326bfc1b017fcc3c2b"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/a3/3d/d305c9112f35df6efb51e5acd0db7009b74d86f35580e033451b5994a0a9/snowballstemmer-2.1.0.tar.gz"
+          hash:
+            value: "fad6a525534b2da052d1fa820a615100"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/snowballstem/snowball.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinx:3.4.3"
+        purl: "pkg:pypi/sphinx@3.4.3"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Python documentation generator"
+        homepage_url: "http://sphinx-doc.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/10/97/2077054b2676718170ff45f09730852e96a042dcd9d0535a56e682f9fc32/Sphinx-3.4.3-py3-none-any.whl"
+          hash:
+            value: "6d20ee2eb417fdec950c621964b664a6"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/7b/a6/3556d79927ed18a0b528dd7a9061921a6b2310fc65873d3077e3c62ae85f/Sphinx-3.4.3.tar.gz"
+          hash:
+            value: "80c5176104fe0cfbd1a8430b6da308b4"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinx-autodoc-typehints:1.11.1"
+        purl: "pkg:pypi/sphinx-autodoc-typehints@1.11.1"
+        authors:
+        - "Alex Grönholm"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Type hints (PEP 484) support for the Sphinx autodoc extension"
+        homepage_url: "UNKNOWN"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/86/d3/554cf6d1f88ace1f086912818247e7ee79222fd99128f1a0a477c2ba8131/sphinx_autodoc_typehints-1.11.1-py3-none-any.whl"
+          hash:
+            value: "1dedc0c48b7254ec090ce4af1a3ba7b7"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/17/ba/1c5ecf82003a607d7d75ee049c6da579d94e91297572ee38e0646fc8272a/sphinx-autodoc-typehints-1.11.1.tar.gz"
+          hash:
+            value: "b5a1f9a148c060ec6ed0c7316d6cbe3e"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinx-rtd-theme:0.5.1"
+        purl: "pkg:pypi/sphinx-rtd-theme@0.5.1"
+        authors:
+        - "Dave Snider, Read the Docs, Inc. & contributors"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Read the Docs theme for Sphinx"
+        homepage_url: "https://github.com/readthedocs/sphinx_rtd_theme"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/76/81/d5af3a50a45ee4311ac2dac5b599d69f68388401c7a4ca902e0e450a9f94/sphinx_rtd_theme-0.5.1-py2.py3-none-any.whl"
+          hash:
+            value: "581fffebe1e63a5d6a830d2aa9aa1689"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/4e/e5/0d55470572e0a0934c600c4cda0c98209883aaeb45ff6bfbadcda7006255/sphinx_rtd_theme-0.5.1.tar.gz"
+          hash:
+            value: "ecd3123ded7c42135b9aef755c5f7cad"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/readthedocs/sphinx_rtd_theme.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinxcontrib-apidoc:0.3.0"
+        purl: "pkg:pypi/sphinxcontrib-apidoc@0.3.0"
+        authors:
+        - "Stephen Finucane"
+        declared_licenses:
+        - "BSD License"
+        declared_licenses_processed:
+          unmapped:
+          - "BSD License"
+        description: "A Sphinx extension for running 'sphinx-apidoc' on each build"
+        homepage_url: "https://github.com/sphinx-contrib/apidoc"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/60/8d/a426a9f7f9ffc8e02d377ca82e3f005817ccf0141b85dbb8653aad13901b/sphinxcontrib_apidoc-0.3.0-py2.py3-none-any.whl"
+          hash:
+            value: "f46d301b87ff95590236e6df31ac1ffd"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/57/55/23f6919551a5e0a824f0effc3a85dd1cbc8df225196c0f6b82c7cea38299/sphinxcontrib-apidoc-0.3.0.tar.gz"
+          hash:
+            value: "baf2ad8a88918b04b54d0655aa273a82"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/sphinx-contrib/apidoc.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinxcontrib-applehelp:1.0.2"
+        purl: "pkg:pypi/sphinxcontrib-applehelp@1.0.2"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "sphinxcontrib-applehelp is a sphinx extension which outputs\
+          \ Apple help books"
+        homepage_url: "http://sphinx-doc.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/dc/47/86022665a9433d89a66f5911b558ddff69861766807ba685de2e324bd6ed/sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl"
+          hash:
+            value: "aac12ce30a5d53b6f96799062c0bc249"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/9f/01/ad9d4ebbceddbed9979ab4a89ddb78c9760e74e6757b1880f1b2760e8295/sphinxcontrib-applehelp-1.0.2.tar.gz"
+          hash:
+            value: "3f2de7681e12dde031acee0497c3cc2b"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinxcontrib-devhelp:1.0.2"
+        purl: "pkg:pypi/sphinxcontrib-devhelp@1.0.2"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp\
+          \ document."
+        homepage_url: "http://sphinx-doc.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/c5/09/5de5ed43a521387f18bdf5f5af31d099605c992fd25372b2b9b825ce48ee/sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl"
+          hash:
+            value: "bf8b7e07f26e8f17266650738b4b978b"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/98/33/dc28393f16385f722c893cb55539c641c9aaec8d1bc1c15b69ce0ac2dbb3/sphinxcontrib-devhelp-1.0.2.tar.gz"
+          hash:
+            value: "94069c5cdb5079c445f5477fa6107016"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinxcontrib-htmlhelp:2.0.0"
+        purl: "pkg:pypi/sphinxcontrib-htmlhelp@2.0.0"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "sphinxcontrib-htmlhelp is a sphinx extension which renders HTML\
+          \ help files"
+        homepage_url: "http://sphinx-doc.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/63/40/c854ef09500e25f6432dcbad0f37df87fd7046d376272292d8654cc71c95/sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl"
+          hash:
+            value: "879cc91af6619962384fc25b806d32dc"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/eb/85/93464ac9bd43d248e7c74573d58a791d48c475230bcf000df2b2700b9027/sphinxcontrib-htmlhelp-2.0.0.tar.gz"
+          hash:
+            value: "70765b55395a3c20233631802902c840"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinxcontrib-jsmath:1.0.1"
+        purl: "pkg:pypi/sphinxcontrib-jsmath@1.0.1"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "A sphinx extension which renders display math in HTML via JavaScript"
+        homepage_url: "http://sphinx-doc.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/c2/42/4c8646762ee83602e3fb3fbe774c2fac12f317deb0b5dbeeedd2d3ba4b77/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl"
+          hash:
+            value: "4a9dbd97819fa713147472387ebd845d"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/b2/e8/9ed3830aeed71f17c026a07a5097edcf44b692850ef215b161b8ad875729/sphinxcontrib-jsmath-1.0.1.tar.gz"
+          hash:
+            value: "e45179f0a3608b6766862e0f34c23b62"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinxcontrib-qthelp:1.0.3"
+        purl: "pkg:pypi/sphinxcontrib-qthelp@1.0.3"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp\
+          \ document."
+        homepage_url: "http://sphinx-doc.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/2b/14/05f9206cf4e9cfca1afb5fd224c7cd434dcc3a433d6d9e4e0264d29c6cdb/sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl"
+          hash:
+            value: "c6d3633bba02c6746ac4ebbb656ee51b"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/b1/8e/c4846e59f38a5f2b4a0e3b27af38f2fcf904d4bfd82095bf92de0b114ebd/sphinxcontrib-qthelp-1.0.3.tar.gz"
+          hash:
+            value: "93216721f3e154cce12d1e9c3307b415"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::sphinxcontrib-serializinghtml:1.1.5"
+        purl: "pkg:pypi/sphinxcontrib-serializinghtml@1.1.5"
+        authors:
+        - "Georg Brandl"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "sphinxcontrib-serializinghtml is a sphinx extension which outputs\
+          \ \"serialized\" HTML files (json and pickle)."
+        homepage_url: "http://sphinx-doc.org/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/c6/77/5464ec50dd0f1c1037e3c93249b040c8fc8078fdda97530eeb02424b6eea/sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl"
+          hash:
+            value: "baee178db23412f86b6aa0ce44a61eee"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/b5/72/835d6fadb9e5d02304cf39b18f93d227cd93abd3c41ebf58e6853eeb1455/sphinxcontrib-serializinghtml-1.1.5.tar.gz"
+          hash:
+            value: "d99d2edc7b26988dc5fa92163857bfbf"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::toml:0.10.2"
+        purl: "pkg:pypi/toml@0.10.2"
+        authors:
+        - "William Pearson"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Python Library for Tom's Obvious, Minimal Language"
+        homepage_url: "https://github.com/uiri/toml"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl"
+          hash:
+            value: "dc26cd71b80d6757139f38156a43c545"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/be/ba/1f744cdc819428fc6b5084ec34d9b30660f6f9daaf70eead706e3203ec3c/toml-0.10.2.tar.gz"
+          hash:
+            value: "59bce5d8d67e858735ec3f399ec90253"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/uiri/toml.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::tox:3.21.2"
+        purl: "pkg:pypi/tox@3.21.2"
+        authors:
+        - "Holger Krekel, Oliver Bestwalter, Bernát Gábor and others"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "tox is a generic virtualenv management and test command line\
+          \ tool"
+        homepage_url: "http://tox.readthedocs.org"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/16/75/26a3c4a593fa93090a0cab77142e52a09b8fc12d6bcea41f9b053177493d/tox-3.21.2-py2.py3-none-any.whl"
+          hash:
+            value: "a95a66b525808e48d0a2b7ca3fb378f0"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/43/5f/fdf5a733cbffb0eafb41cf458b0a0bb1e90ef6ef6cd1a0bcc6e3fa9ecfd7/tox-3.21.2.tar.gz"
+          hash:
+            value: "d48a756645671c0ff69270bb6d5f88b9"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::tqdm:4.62.2"
+        purl: "pkg:pypi/tqdm@4.62.2"
+        declared_licenses:
+        - "MIT License"
+        - "MPLv2.0, MIT Licences"
+        - "Mozilla Public License 2.0 (MPL 2.0)"
+        declared_licenses_processed:
+          spdx_expression: "MIT AND MPL-2.0 AND MIT AND MPL-2.0"
+          mapped:
+            MIT License: "MIT"
+            MPLv2.0, MIT Licences: "MPL-2.0 AND MIT"
+            Mozilla Public License 2.0 (MPL 2.0): "MPL-2.0"
+        description: "Fast, Extensible Progress Meter"
+        homepage_url: "https://tqdm.github.io"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/9c/05/cf212f57daa0eb6106fa668a04d74d932e9881fd4a22f322ea1dadb5aba0/tqdm-4.62.2-py2.py3-none-any.whl"
+          hash:
+            value: "e444cf7d9f9ab901f9892cc24e5a36b0"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/37/e5/1b54ef934d731576d0145bc8ae22da5b410f96922cec52b91cc29d3ff1b6/tqdm-4.62.2.tar.gz"
+          hash:
+            value: "33b29c38daf6a4df3c9303283cde3865"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::twine:3.3.0"
+        purl: "pkg:pypi/twine@3.3.0"
+        authors:
+        - "Donald Stufft and individual contributors"
+        declared_licenses:
+        - "Apache Software License"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache Software License: "Apache-2.0"
+        description: "Collection of utilities for publishing packages on PyPI"
+        homepage_url: "https://twine.readthedocs.io/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/eb/d7/a46b7eb07b491a9295c3581f86ad68f97df83e000dc9a4c6e3c710c432dd/twine-3.3.0-py3-none-any.whl"
+          hash:
+            value: "031273e4db69b65947f8e22a9ea64240"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/f9/43/51c3139667e90399a4d7886013631ad020ad102db5c2907cb240ce56f3c1/twine-3.3.0.tar.gz"
+          hash:
+            value: "bf3a15bbfd77c2881d15b4880c774a9e"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::typed-ast:1.4.3"
+        purl: "pkg:pypi/typed-ast@1.4.3"
+        authors:
+        - "David Fisher"
+        declared_licenses:
+        - "Apache License 2.0"
+        declared_licenses_processed:
+          spdx_expression: "Apache-2.0"
+          mapped:
+            Apache License 2.0: "Apache-2.0"
+        description: "a fork of Python 2 and 3 ast modules with type comment support"
+        homepage_url: "https://github.com/python/typed_ast"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/16/05/6e4328230cb16b0ae41223938f80e3cae3bbe8ae1c2aa7fe739e19bb4bc6/typed_ast-1.4.3-cp35-cp35m-manylinux1_i686.whl"
+          hash:
+            value: "48c29a3709e087d909f4e05228ba2e55"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/6e/08/c04a49ee26a94c1ec211e7b1e5f2971d692e04818ea67ef70f1e879cf525/typed_ast-1.4.3.tar.gz"
+          hash:
+            value: "a48fe4c5ef52b0af3188684dd28ca41c"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/python/typed_ast.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::typing-extensions:3.10.0.2"
+        purl: "pkg:pypi/typing-extensions@3.10.0.2"
+        authors:
+        - "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee"
+        declared_licenses:
+        - "PSF"
+        - "Python Software Foundation License"
+        declared_licenses_processed:
+          spdx_expression: "PSF-2.0"
+          mapped:
+            PSF: "PSF-2.0"
+            Python Software Foundation License: "PSF-2.0"
+        description: "Backported and Experimental Type Hints for Python 3.5+"
+        homepage_url: "https://github.com/python/typing/blob/master/typing_extensions/README.rst"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/cc/1e/0310dee9d86a41f003c519ce263f3b931c54852fcb15ec780137b2e53d4e/typing_extensions-3.10.0.2-py2-none-any.whl"
+          hash:
+            value: "96296851ac46115ff8ae00bf2f4f574d"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/ed/12/c5079a15cf5c01d7f4252b473b00f7e68ee711be605b9f001528f0298b98/typing_extensions-3.10.0.2.tar.gz"
+          hash:
+            value: "ed80ecc8eac5cb15840535ca54eb43f3"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/python/typing.git"
+          revision: "master"
+          path: "typing_extensions/README.rst"
+      curations: []
+    - package:
+        id: "PyPI::urllib3:1.26.6"
+        purl: "pkg:pypi/urllib3@1.26.6"
+        authors:
+        - "Andrey Petrov"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "HTTP library with thread-safe connection pooling, file post,\
+          \ and more."
+        homepage_url: "https://urllib3.readthedocs.io/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/5f/64/43575537846896abac0b15c3e5ac678d787a4021e906703f1766bfb8ea11/urllib3-1.26.6-py2.py3-none-any.whl"
+          hash:
+            value: "5bec1a4347ac2466ef942eec50ef4335"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/4f/5a/597ef5911cb8919efe4d86206aa8b2658616d676a7088f0825ca08bd7cb8/urllib3-1.26.6.tar.gz"
+          hash:
+            value: "3a88ec3bcb761ca23df2c3583949be37"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::virtualenv:20.8.0"
+        purl: "pkg:pypi/virtualenv@20.8.0"
+        authors:
+        - "Bernat Gabor"
+        declared_licenses:
+        - "MIT"
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Virtual Python Environment builder"
+        homepage_url: "https://virtualenv.pypa.io/"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/b3/66/2f2f7cd094b890fb2c8d64297d41a9ff7491c8d7372b58783808f3db0fd5/virtualenv-20.8.0-py2.py3-none-any.whl"
+          hash:
+            value: "8d3b56f8c8fd982b51cd141593aef7de"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/39/2f/84439468561782ed91d9f9499738fb52a84e4d65f164849e7050db7834e5/virtualenv-20.8.0.tar.gz"
+          hash:
+            value: "96ee1b92254e19c26ce5001913d649e6"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::webencodings:0.5.1"
+        purl: "pkg:pypi/webencodings@0.5.1"
+        authors:
+        - "Geoffrey Sneddon"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Character encoding aliases for legacy web content"
+        homepage_url: "https://github.com/SimonSapin/python-webencodings"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl"
+          hash:
+            value: "36654e7c7b772611b536014fa9e6e918"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/0b/02/ae6ceac1baeda530866a85075641cec12989bd8d31af6d5ab4a3e8c92f47/webencodings-0.5.1.tar.gz"
+          hash:
+            value: "32f6e261d52e57bf7e1c4d41546d15b8"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/SimonSapin/python-webencodings.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::wrapt:1.12.1"
+        purl: "pkg:pypi/wrapt@1.12.1"
+        authors:
+        - "Graham Dumpleton"
+        declared_licenses:
+        - "BSD"
+        - "BSD License"
+        declared_licenses_processed:
+          spdx_expression: "BSD-3-Clause"
+          mapped:
+            BSD: "BSD-3-Clause"
+          unmapped:
+          - "BSD License"
+        description: "Module for decorators, wrappers and monkey patching."
+        homepage_url: "https://github.com/GrahamDumpleton/wrapt"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/82/f7/e43cefbe88c5fd371f4cf0cf5eb3feccd07515af9fd6cf7dbf1d1793a797/wrapt-1.12.1.tar.gz"
+          hash:
+            value: "6d56ed0de4336462a73350341462f45e"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/82/f7/e43cefbe88c5fd371f4cf0cf5eb3feccd07515af9fd6cf7dbf1d1793a797/wrapt-1.12.1.tar.gz"
+          hash:
+            value: "6d56ed0de4336462a73350341462f45e"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/GrahamDumpleton/wrapt.git"
+          revision: ""
+          path: ""
+      curations: []
+    - package:
+        id: "PyPI::zipp:3.5.0"
+        purl: "pkg:pypi/zipp@3.5.0"
+        authors:
+        - "Jason R. Coombs"
+        declared_licenses:
+        - "MIT License"
+        declared_licenses_processed:
+          spdx_expression: "MIT"
+          mapped:
+            MIT License: "MIT"
+        description: "Backport of pathlib-compatible object wrapper for zip files"
+        homepage_url: "https://github.com/jaraco/zipp"
+        binary_artifact:
+          url: "https://files.pythonhosted.org/packages/92/d9/89f433969fb8dc5b9cbdd4b4deb587720ec1aeb59a020cf15002b9593eef/zipp-3.5.0-py3-none-any.whl"
+          hash:
+            value: "0ec47fbf522751f6c5fa904cb33f1f59"
+            algorithm: "MD5"
+        source_artifact:
+          url: "https://files.pythonhosted.org/packages/3a/9f/1d4b62cbe8d222539a84089eeab603d8e45ee1f897803a0ae0860400d6e7/zipp-3.5.0.tar.gz"
+          hash:
+            value: "617efbf3edb707c57008ec00f408972f"
+            algorithm: "MD5"
+        vcs:
+          type: ""
+          url: ""
+          revision: ""
+          path: ""
+        vcs_processed:
+          type: "Git"
+          url: "https://github.com/jaraco/zipp.git"
+          revision: ""
+          path: ""
+      curations: []
+    dependency_graphs:
+      PIP:
+        packages:
+        - "PyPI::binaryornot:0.4.4"
+        - "PyPI::chardet:4.0.0"
+        - "PyPI::jinja2:2.11.3"
+        - "PyPI::markupsafe:2.0.1"
+        - "PyPI::license-expression:1.2"
+        - "PyPI::boolean-py:3.8"
+        - "PyPI::python-debian:0.1.38"
+        - "PyPI::six:1.16.0"
+        - "PyPI::requests:2.25.1"
+        - "PyPI::certifi:2021.5.30"
+        - "PyPI::idna:2.10"
+        - "PyPI::urllib3:1.26.6"
+        - "PyPI::setuptools-scm:5.0.1"
+        - "PyPI::setuptools:52.0.0"
+        - "PyPI::black:20.8b1"
+        - "PyPI::appdirs:1.4.4"
+        - "PyPI::click:8.0.1"
+        - "PyPI::importlib-metadata:4.8.1"
+        - "PyPI::typing-extensions:3.10.0.2"
+        - "PyPI::zipp:3.5.0"
+        - "PyPI::dataclasses:0.8"
+        - "PyPI::mypy-extensions:0.4.3"
+        - "PyPI::pathspec:0.9.0"
+        - "PyPI::regex:2021.8.28"
+        - "PyPI::toml:0.10.2"
+        - "PyPI::typed-ast:1.4.3"
+        - "PyPI::bump2version:1.0.1"
+        - "PyPI::pre-commit:2.9.3"
+        - "PyPI::cfgv:3.3.1"
+        - "PyPI::identify:2.2.14"
+        - "PyPI::importlib-resources:5.2.2"
+        - "PyPI::nodeenv:1.6.0"
+        - "PyPI::pyyaml:5.4.1"
+        - "PyPI::virtualenv:20.8.0"
+        - "PyPI::backports-entry-points-selectable:1.1.0"
+        - "PyPI::distlib:0.3.2"
+        - "PyPI::filelock:3.0.12"
+        - "PyPI::platformdirs:2.3.0"
+        - "PyPI::pylint:2.6.0"
+        - "PyPI::astroid:2.5"
+        - "PyPI::lazy-object-proxy:1.6.0"
+        - "PyPI::wrapt:1.12.1"
+        - "PyPI::isort:5.7.0"
+        - "PyPI::mccabe:0.6.1"
+        - "PyPI::pytest-cov:2.11.1"
+        - "PyPI::coverage:5.5"
+        - "PyPI::pytest:6.2.2"
+        - "PyPI::attrs:21.2.0"
+        - "PyPI::iniconfig:1.1.1"
+        - "PyPI::packaging:21.0"
+        - "PyPI::pyparsing:2.4.7"
+        - "PyPI::pluggy:0.13.1"
+        - "PyPI::py:1.10.0"
+        - "PyPI::recommonmark:0.7.1"
+        - "PyPI::commonmark:0.9.1"
+        - "PyPI::docutils:0.17.1"
+        - "PyPI::sphinx:3.4.3"
+        - "PyPI::alabaster:0.7.12"
+        - "PyPI::babel:2.9.1"
+        - "PyPI::pytz:2021.1"
+        - "PyPI::imagesize:1.2.0"
+        - "PyPI::pygments:2.10.0"
+        - "PyPI::snowballstemmer:2.1.0"
+        - "PyPI::sphinxcontrib-applehelp:1.0.2"
+        - "PyPI::sphinxcontrib-devhelp:1.0.2"
+        - "PyPI::sphinxcontrib-htmlhelp:2.0.0"
+        - "PyPI::sphinxcontrib-jsmath:1.0.1"
+        - "PyPI::sphinxcontrib-qthelp:1.0.3"
+        - "PyPI::sphinxcontrib-serializinghtml:1.1.5"
+        - "PyPI::sphinx-autodoc-typehints:1.11.1"
+        - "PyPI::sphinx-rtd-theme:0.5.1"
+        - "PyPI::sphinxcontrib-apidoc:0.3.0"
+        - "PyPI::pbr:5.6.0"
+        - "PyPI::tox:3.21.2"
+        - "PyPI::twine:3.3.0"
+        - "PyPI::colorama:0.4.4"
+        - "PyPI::keyring:23.2.1"
+        - "PyPI::jeepney:0.7.1"
+        - "PyPI::secretstorage:3.3.1"
+        - "PyPI::cryptography:3.3.2"
+        - "PyPI::cffi:1.14.6"
+        - "PyPI::pycparser:2.20"
+        - "PyPI::pkginfo:1.7.1"
+        - "PyPI::readme-renderer:29.0"
+        - "PyPI::bleach:4.1.0"
+        - "PyPI::webencodings:0.5.1"
+        - "PyPI::requests-toolbelt:0.9.1"
+        - "PyPI::rfc3986:1.5.0"
+        - "PyPI::tqdm:4.62.2"
+        scopes:
+          :reuse-requirements:0.13.0:install:
+          - root: 0
+          - root: 2
+          - root: 4
+          - root: 6
+          - root: 8
+          - root: 12
+          :reuse-requirements-dev:0.13.0:install:
+          - root: 0
+          - root: 14
+          - root: 26
+          - root: 4
+          - root: 27
+          - root: 38
+          - root: 44
+          - root: 6
+          - root: 53
+          - root: 12
+          - root: 69
+          - root: 70
+          - root: 71
+          - root: 73
+          - root: 74
+        nodes:
+        - {}
+        - pkg: 1
+        - pkg: 4
+        - pkg: 5
+        - pkg: 6
+        - pkg: 7
+        - pkg: 12
+        - pkg: 13
+        - pkg: 14
+        - pkg: 15
+        - pkg: 16
+        - pkg: 18
+        - pkg: 20
+        - pkg: 21
+        - pkg: 22
+        - pkg: 23
+        - pkg: 24
+        - pkg: 25
+        - pkg: 26
+        - pkg: 27
+        - pkg: 17
+        - pkg: 28
+        - pkg: 29
+        - pkg: 30
+        - pkg: 31
+        - pkg: 32
+        - pkg: 33
+        - pkg: 38
+        - pkg: 39
+        - pkg: 42
+        - pkg: 43
+        - pkg: 44
+        - pkg: 45
+        - pkg: 46
+        - pkg: 53
+        - pkg: 54
+        - pkg: 55
+        - pkg: 56
+        - pkg: 69
+        - pkg: 70
+        - pkg: 71
+        - pkg: 72
+        - pkg: 73
+        - pkg: 36
+        - pkg: 49
+        - pkg: 51
+        - pkg: 52
+        - pkg: 74
+        - pkg: 8
+        - pkg: 75
+        - pkg: 76
+        - pkg: 82
+        - pkg: 83
+        - pkg: 86
+        - pkg: 87
+        - pkg: 88
+        - pkg: 19
+        - pkg: 34
+        - pkg: 35
+        - pkg: 37
+        - pkg: 40
+        - pkg: 41
+        - pkg: 47
+        - pkg: 48
+        - pkg: 2
+        - pkg: 57
+        - pkg: 58
+        - pkg: 60
+        - pkg: 61
+        - pkg: 62
+        - pkg: 63
+        - pkg: 64
+        - pkg: 65
+        - pkg: 66
+        - pkg: 67
+        - pkg: 68
+        - pkg: 50
+        - pkg: 9
+        - pkg: 10
+        - pkg: 11
+        - pkg: 77
+        - pkg: 78
+        - pkg: 84
+        - pkg: 3
+        - pkg: 59
+        - pkg: 79
+        - pkg: 85
+        - pkg: 80
+        - pkg: 81
+        edges:
+        - from: 0
+          to: 1
+        - from: 2
+          to: 3
+        - from: 4
+          to: 1
+        - from: 4
+          to: 5
+        - from: 6
+          to: 7
+        - from: 8
+          to: 9
+        - from: 8
+          to: 10
+        - from: 8
+          to: 11
+        - from: 8
+          to: 12
+        - from: 8
+          to: 13
+        - from: 8
+          to: 14
+        - from: 8
+          to: 15
+        - from: 8
+          to: 16
+        - from: 8
+          to: 17
+        - from: 19
+          to: 20
+        - from: 19
+          to: 16
+        - from: 19
+          to: 21
+        - from: 19
+          to: 22
+        - from: 19
+          to: 23
+        - from: 19
+          to: 24
+        - from: 19
+          to: 25
+        - from: 19
+          to: 26
+        - from: 27
+          to: 16
+        - from: 27
+          to: 28
+        - from: 27
+          to: 29
+        - from: 27
+          to: 30
+        - from: 31
+          to: 32
+        - from: 31
+          to: 33
+        - from: 34
+          to: 35
+        - from: 34
+          to: 36
+        - from: 34
+          to: 37
+        - from: 38
+          to: 37
+        - from: 39
+          to: 37
+        - from: 40
+          to: 37
+        - from: 40
+          to: 41
+        - from: 42
+          to: 5
+        - from: 42
+          to: 20
+        - from: 42
+          to: 16
+        - from: 42
+          to: 26
+        - from: 42
+          to: 43
+        - from: 42
+          to: 44
+        - from: 42
+          to: 45
+        - from: 42
+          to: 46
+        - from: 47
+          to: 48
+        - from: 47
+          to: 7
+        - from: 47
+          to: 20
+        - from: 47
+          to: 49
+        - from: 47
+          to: 50
+        - from: 47
+          to: 51
+        - from: 47
+          to: 52
+        - from: 47
+          to: 53
+        - from: 47
+          to: 54
+        - from: 47
+          to: 55
+        - from: 10
+          to: 20
+        - from: 20
+          to: 11
+        - from: 20
+          to: 56
+        - from: 23
+          to: 56
+        - from: 26
+          to: 5
+        - from: 26
+          to: 20
+        - from: 26
+          to: 23
+        - from: 26
+          to: 57
+        - from: 26
+          to: 58
+        - from: 26
+          to: 43
+        - from: 26
+          to: 59
+        - from: 28
+          to: 17
+        - from: 28
+          to: 60
+        - from: 28
+          to: 61
+        - from: 33
+          to: 20
+        - from: 33
+          to: 16
+        - from: 33
+          to: 62
+        - from: 33
+          to: 63
+        - from: 33
+          to: 44
+        - from: 33
+          to: 45
+        - from: 33
+          to: 46
+        - from: 37
+          to: 64
+        - from: 37
+          to: 48
+        - from: 37
+          to: 7
+        - from: 37
+          to: 44
+        - from: 37
+          to: 36
+        - from: 37
+          to: 65
+        - from: 37
+          to: 66
+        - from: 37
+          to: 67
+        - from: 37
+          to: 68
+        - from: 37
+          to: 69
+        - from: 37
+          to: 70
+        - from: 37
+          to: 71
+        - from: 37
+          to: 72
+        - from: 37
+          to: 73
+        - from: 37
+          to: 74
+        - from: 37
+          to: 75
+        - from: 44
+          to: 76
+        - from: 45
+          to: 20
+        - from: 48
+          to: 1
+        - from: 48
+          to: 77
+        - from: 48
+          to: 78
+        - from: 48
+          to: 79
+        - from: 50
+          to: 20
+        - from: 50
+          to: 80
+        - from: 50
+          to: 81
+        - from: 52
+          to: 5
+        - from: 52
+          to: 36
+        - from: 52
+          to: 68
+        - from: 52
+          to: 82
+        - from: 53
+          to: 48
+        - from: 57
+          to: 20
+        - from: 64
+          to: 83
+        - from: 66
+          to: 84
+        - from: 81
+          to: 80
+        - from: 81
+          to: 85
+        - from: 82
+          to: 5
+        - from: 82
+          to: 44
+        - from: 82
+          to: 86
+        - from: 85
+          to: 5
+        - from: 85
+          to: 87
+        - from: 87
+          to: 88
+    has_issues: false
+scanner: null
+advisor: null
+evaluator: null

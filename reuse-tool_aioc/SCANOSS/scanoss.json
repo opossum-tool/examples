@@ -1,0 +1,2048 @@
+{
+"./tox.ini":[{
+"id":"none"
+}]
+,
+"tests/resources/fsfe.png":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/src/source_code.py":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/src/source_code.jinja2":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/src/source_code.html":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/src/source_code.c":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/src/exception.py":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/src/custom.py":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/doc/index.rst":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/LICENSES/LicenseRef-custom.txt":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/LICENSES/GPL-3.0-or-later.txt":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/LICENSES/CC0-1.0.txt":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/LICENSES/Autoconf-exception-3.0.txt":[{
+"id":"none"
+}]
+,
+"tests/resources/fake_repository/.reuse/dep5":[{
+"id":"none"
+}]
+,
+"src/reuse/templates/default_template.jinja2.license":[{
+"id":"none"
+}]
+,
+"src/reuse/templates/default_template.jinja2":[{
+"id":"none"
+}]
+,
+"src/reuse/resources/licenses.json.license":[{
+"id":"none"
+}]
+,
+"src/reuse/resources/licenses.json":[{
+"id":"none"
+}]
+,
+"src/reuse/resources/exceptions.json.license":[{
+"id":"none"
+}]
+,
+"src/reuse/resources/exceptions.json":[{
+"id":"none"
+}]
+,
+"src/reuse/__main__.py":[{
+"id":"none"
+}]
+,
+"./requirements.txt":[{
+"id":"none"
+}]
+,
+"./requirements-dev.txt":[{
+"id":"none"
+}]
+,
+"./pyproject.toml":[{
+"id":"none"
+}]
+,
+"po/tr.po":[{
+"id":"none"
+}]
+,
+"po/pt.po":[{
+"id":"none"
+}]
+,
+"po/nl.po":[{
+"id":"none"
+}]
+,
+"po/it.po":[{
+"id":"none"
+}]
+,
+"po/gl.po":[{
+"id":"none"
+}]
+,
+"po/fr.po":[{
+"id":"none"
+}]
+,
+"po/es.po":[{
+"id":"none"
+}]
+,
+"po/eo.po":[{
+"id":"none"
+}]
+,
+"po/de.po":[{
+"id":"none"
+}]
+,
+"po/POTFILES.in":[{
+"id":"none"
+}]
+,
+"docs/usage.rst.license":[{
+"id":"none"
+}]
+,
+"docs/usage.rst":[{
+"id":"none"
+}]
+,
+"docs/index.rst":[{
+"id":"none"
+}]
+,
+"docs/authors.rst":[{
+"id":"none"
+}]
+,
+"docs/_static/.gitkeep":[{
+"id":"none"
+}]
+,
+"./README.md":[{
+"id":"none"
+}]
+,
+"./MANIFEST.in":[{
+"id":"none"
+}]
+,
+"LICENSES/GPL-3.0-or-later.txt":[{
+"id":"none"
+}]
+,
+"LICENSES/CC0-1.0.txt":[{
+"id":"none"
+}]
+,
+"LICENSES/CC-BY-SA-4.0.txt":[{
+"id":"none"
+}]
+,
+"LICENSES/Apache-2.0.txt":[{
+"id":"none"
+}]
+,
+"./CODE_OF_CONDUCT.md":[{
+"id":"none"
+}]
+,
+"./CHANGELOG.md":[{
+"id":"none"
+}]
+,
+"./AUTHORS.rst":[{
+"id":"none"
+}]
+,
+"./.pre-commit-hooks.yaml":[{
+"id":"none"
+}]
+,
+"./.pre-commit-config.yaml":[{
+"id":"none"
+}]
+,
+"./.gitignore":[{
+"id":"none"
+}]
+,
+".github/workflows/pythonpackage.yaml":[{
+"id":"none"
+}]
+,
+".github/workflows/license_list_up_to_date.yaml":[{
+"id":"none"
+}]
+,
+".github/workflows/latesttag.yaml":[{
+"id":"none"
+}]
+,
+"./.bumpversion.cfg":[{
+"id":"none"
+}]
+,
+
+  "tests/test_vcs.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_vcs.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "4162684c82744ba0613b7e848357e57d",
+      "file_url": "https://osskb.org/api/file_contents/4162684c82744ba0613b7e848357e57d",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.004413s"
+      }
+    }
+  ]
+  ,
+  "tests/test_util.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/tests/test_util.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "67393c69baa2a34509d15f8bf946581b",
+      "file_url": "https://osskb.org/api/file_contents/67393c69baa2a34509d15f8bf946581b",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright (c) 2020 Liferay; Inc. <https:  liferay.com>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.010324s"
+      }
+    }
+  ]
+  ,
+  "tests/test_report.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_report.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "32e4d8792dd6986ee4d6dc42a32f4efd",
+      "file_url": "https://osskb.org/api/file_contents/32e4d8792dd6986ee4d6dc42a32f4efd",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009098s"
+      }
+    }
+  ]
+  ,
+  "tests/test_project.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_project.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "cd650d517555f825eb8cb70cbd3bc424",
+      "file_url": "https://osskb.org/api/file_contents/cd650d517555f825eb8cb70cbd3bc424",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright (c) 2020 Liferay; Inc. <https:  liferay.com>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009384s"
+      }
+    }
+  ]
+  ,
+  "tests/test_main_addheader.py": [
+    {
+      "id": "snippet",
+      "status": "pending",
+      "lines": "1-915",
+      "oss_lines": "2-916",
+      "matched": "99%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_main_addheader.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "ecc74e86f6eb534617c971e4a71677ff",
+      "file_url": "https://osskb.org/api/file_contents/ecc74e86f6eb534617c971e4a71677ff",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2019 Stefan Bakker <s.bakker777@gmail.com>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright (c) 2020 Liferay; Inc. <https:  liferay.com>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "1.482971s"
+      }
+    }
+  ]
+  ,
+  "tests/test_main.py": [
+    {
+      "id": "snippet",
+      "status": "pending",
+      "lines": "1-259",
+      "oss_lines": "2-260",
+      "matched": "99%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_main.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "a6458438e523b9ecc775f63e3b14b2f8",
+      "file_url": "https://osskb.org/api/file_contents/a6458438e523b9ecc775f63e3b14b2f8",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.673756s"
+      }
+    }
+  ]
+  ,
+  "tests/test_lint.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.11.0",
+      "latest": "latest",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "",
+      "file": "tests/test_lint.py",
+      "url_hash": "60157ecdd426a77c911e119d1656be53",
+      "file_hash": "6355ad26b431b6daea1b0c29f3b47b34",
+      "file_url": "https://osskb.org/api/file_contents/6355ad26b431b6daea1b0c29f3b47b34",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.012194s"
+      }
+    }
+  ]
+  ,
+  "tests/test_header.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_header.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "105cf24fe133fb297662b6ac704b7c28",
+      "file_url": "https://osskb.org/api/file_contents/105cf24fe133fb297662b6ac704b7c28",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008696s"
+      }
+    }
+  ]
+  ,
+  "tests/test_download.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_download.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "1f28d88cdda7898c22e93c3bff1f767d",
+      "file_url": "https://osskb.org/api/file_contents/1f28d88cdda7898c22e93c3bff1f767d",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008834s"
+      }
+    }
+  ]
+  ,
+  "tests/test_comment.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/test_comment.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "9e1a22d0220a004630509dd051025957",
+      "file_url": "https://osskb.org/api/file_contents/9e1a22d0220a004630509dd051025957",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009053s"
+      }
+    }
+  ]
+  ,
+  "tests/conftest.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "tests/conftest.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "ed67a6ccddb890174ba7181aba6ffa39",
+      "file_url": "https://osskb.org/api/file_contents/ed67a6ccddb890174ba7181aba6ffa39",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008700s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/vcs.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.10.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "",
+      "file": "reuse-0.10.1/src/reuse/vcs.py",
+      "url_hash": "95f87ab698fc767c9d48581db997cd19",
+      "file_hash": "151098752336cfe62ce431f9c7ff3709",
+      "file_url": "https://osskb.org/api/file_contents/151098752336cfe62ce431f9c7ff3709",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2020 John Mulligan <jmulligan@redhat.com>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright (c) 2020 Liferay; Inc. <https:  liferay.com>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.012020s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/spdx.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.10.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "",
+      "file": "reuse-0.10.1/src/reuse/spdx.py",
+      "url_hash": "95f87ab698fc767c9d48581db997cd19",
+      "file_hash": "6dced70e072b66af8644da82aa2c7635",
+      "file_url": "https://osskb.org/api/file_contents/6dced70e072b66af8644da82aa2c7635",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009697s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/report.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "fsfe",
+      "component": "reuse-tool",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://github.com/fsfe/reuse-tool",
+      "release_date": "2021-06-11",
+      "file": "src/reuse/report.py",
+      "url_hash": "2268fff4c4d21cd01d360bf438dac33e",
+      "file_hash": "90a612c5a5b6a3e2bba12606660cc5bb",
+      "file_url": "https://osskb.org/api/file_contents/90a612c5a5b6a3e2bba12606660cc5bb",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [
+        {
+          "algorithm": "MD5",
+          "strength": "128"
+        }
+      ],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009215s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/project.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/src/reuse/project.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "069dca08882a15c19922cee9be1bae00",
+      "file_url": "https://osskb.org/api/file_contents/069dca08882a15c19922cee9be1bae00",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008779s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/lint.py": [
+    {
+      "id": "snippet",
+      "status": "pending",
+      "lines": "1-345",
+      "oss_lines": "5-349",
+      "matched": "99%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.10.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "",
+      "file": "reuse-0.10.1/src/reuse/lint.py",
+      "url_hash": "95f87ab698fc767c9d48581db997cd19",
+      "file_hash": "17610d4878ac64ed9d40fb58549f9099",
+      "file_url": "https://osskb.org/api/file_contents/17610d4878ac64ed9d40fb58549f9099",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.640374s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/init.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.10.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "",
+      "file": "reuse-0.10.1/src/reuse/init.py",
+      "url_hash": "95f87ab698fc767c9d48581db997cd19",
+      "file_hash": "ad3709b8ac32a35a011ce684967db6d6",
+      "file_url": "https://osskb.org/api/file_contents/ad3709b8ac32a35a011ce684967db6d6",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009579s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/header.py": [
+    {
+      "id": "snippet",
+      "status": "pending",
+      "lines": "284-623,1-271",
+      "oss_lines": "274-613,5-275",
+      "matched": "97%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/src/reuse/header.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "52499f2e771da03dfd757039a476d80e",
+      "file_url": "https://osskb.org/api/file_contents/52499f2e771da03dfd757039a476d80e",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2019 Kirill Elagin <kirelagin@gmail.com>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2019 Stefan Bakker <s.bakker777@gmail.com>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2020 Dmitry Bogatov",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2021 Alliander N.V. <https:  alliander.com>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2021 Alvar Penning",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright (c) 2020 Liferay; Inc. <https:  liferay.com>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "1.257430s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/download.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/src/reuse/download.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "474dbb818d26c2bba1bb07f1ffee68f6",
+      "file_url": "https://osskb.org/api/file_contents/474dbb818d26c2bba1bb07f1ffee68f6",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008946s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/_util.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/src/reuse/_util.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "8552ff8658f368126860ae4cf8b04eb9",
+      "file_url": "https://osskb.org/api/file_contents/8552ff8658f368126860ae4cf8b04eb9",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2020 Tuomas Siipola <tuomas@zpl.fi>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright (c) 2020 Liferay; Inc. <https:  liferay.com>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008787s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/_main.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.11.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "",
+      "file": "reuse-0.11.1/src/reuse/_main.py",
+      "url_hash": "dee415536c64e086d6d1cbb70bc94c11",
+      "file_hash": "140c90225058299630a67868fd0b6d14",
+      "file_url": "https://osskb.org/api/file_contents/140c90225058299630a67868fd0b6d14",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright (c) 2020 Liferay; Inc. <https:  liferay.com>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.010077s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/_licenses.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.11.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "",
+      "file": "reuse-0.11.1/src/reuse/_licenses.py",
+      "url_hash": "dee415536c64e086d6d1cbb70bc94c11",
+      "file_hash": "2dd68264374297fd90a3af03c9ee413c",
+      "file_url": "https://osskb.org/api/file_contents/2dd68264374297fd90a3af03c9ee413c",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "Apache-2.0",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/Apache-2.0.txt",
+          "copyleft": "no",
+          "patent_hints": "yes",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2014 Ahmed H. Ismail",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2014 Ahmed H. Ismail",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009513s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/_format.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.10.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "",
+      "file": "reuse-0.10.1/src/reuse/_format.py",
+      "url_hash": "95f87ab698fc767c9d48581db997cd19",
+      "file_hash": "7ae7b65dd442bbb3b31a29c1dd4b543b",
+      "file_url": "https://osskb.org/api/file_contents/7ae7b65dd442bbb3b31a29c1dd4b543b",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2018 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2018 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [
+        {
+          "score": "5/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.009587s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/_comment.py": [
+    {
+      "id": "snippet",
+      "status": "pending",
+      "lines": "603-687,572-592,505-535,470-484,348-460,1-330",
+      "oss_lines": "564-648,534-554,483-513,458-472,339-451,4-333",
+      "matched": "85%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/src/reuse/_comment.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "0a41cbb6d3c25f0e3261e1cc44a3acc3",
+      "file_url": "https://osskb.org/api/file_contents/0a41cbb6d3c25f0e3261e1cc44a3acc3",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2019 Kirill Elagin",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2020 Dmitry Bogatov",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2021 Alliander N.V. <https:  alliander.com>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2021 Alvar Penning",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "1.385064s"
+      }
+    }
+  ]
+  ,
+  "src/reuse/__init__.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/src/reuse/__init__.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "6f1dc543095e858ded128fb46ae0cb40",
+      "file_url": "https://osskb.org/api/file_contents/6f1dc543095e858ded128fb46ae0cb40",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        },
+        {
+          "name": "Copyright 2021 Alliander N.V.",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008951s"
+      }
+    }
+  ]
+  ,
+  "./setup.py": [
+    {
+      "id": "snippet",
+      "status": "pending",
+      "lines": "51-155,1-34",
+      "oss_lines": "49-153,12-45",
+      "matched": "88%",
+      "purl": [
+        "pkg:github/miguelvictor/code-completion"
+      ],
+      "vendor": "miguelvictor",
+      "component": "code-completion",
+      "version": "0.0.3",
+      "latest": "0.0.3",
+      "url": "https://github.com/miguelvictor/code-completion",
+      "release_date": "2021-04-25",
+      "file": "fsfe/reuse-tool/setup.py",
+      "url_hash": "5ea5e9a86462048b05e7892e50adc670",
+      "file_hash": "15b36abc66590a7bed9b4f84089a0ed4",
+      "file_url": "https://osskb.org/api/file_contents/15b36abc66590a7bed9b4f84089a0ed4",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.314064s"
+      }
+    }
+  ]
+  ,
+  "docs/conf.py": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/docs/conf.py",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "c3912fd4f3893fe7ac830b3a28c043e4",
+      "file_url": "https://osskb.org/api/file_contents/c3912fd4f3893fe7ac830b3a28c043e4",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2017 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.001675s"
+      }
+    }
+  ]
+  ,
+  "./Makefile": [
+    {
+      "id": "none",
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.000012s"
+      }
+    }
+  ]
+  ,
+  "./Dockerfile-extra": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/Dockerfile-extra",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "3ec1bcdf1836abd8d844d3b20bb7795a",
+      "file_url": "https://osskb.org/api/file_contents/3ec1bcdf1836abd8d844d3b20bb7795a",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2020 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2020 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008656s"
+      }
+    }
+  ]
+  ,
+  "./Dockerfile-debian": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/Dockerfile-debian",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "c722542d6a50a729d3267c63f4951eae",
+      "file_url": "https://osskb.org/api/file_contents/c722542d6a50a729d3267c63f4951eae",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2021 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2021 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008988s"
+      }
+    }
+  ]
+  ,
+  "./Dockerfile": [
+    {
+      "id": "file",
+      "status": "pending",
+      "lines": "all",
+      "oss_lines": "all",
+      "matched": "100%",
+      "purl": [
+        "pkg:pypi/reuse",
+        "pkg:github/fsfe/reuse-tool",
+        "pkg:pypi/fsfe-reuse"
+      ],
+      "vendor": "Carmen Bianca Bakker",
+      "component": "reuse",
+      "version": "0.13.0",
+      "latest": "0.13.0",
+      "url": "https://pypi.org/project/reuse",
+      "release_date": "2021-06-11",
+      "file": "reuse-0.13.0/Dockerfile",
+      "url_hash": "e9df72dd944e6b02e9c378141e4b43ae",
+      "file_hash": "df6beefef3840f12a078fb998b629d1c",
+      "file_url": "https://osskb.org/api/file_contents/df6beefef3840f12a078fb998b629d1c",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "GPL-3.0-or-later",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/GPL-3.0-or-later.txt",
+          "copyleft": "yes",
+          "patent_hints": "yes",
+          "incompatible_with": "Apache-1.0, Apache-1.1, BSD-4-Clause, BSD-4-Clause-UC, FTL, IJG, OpenSSL, Python-2.0, zlib-acknowledgement, XFree86-1.1",
+          "source": "file_spdx_tag"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "CopyrightText: 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "file_header"
+        },
+        {
+          "name": "Copyright 2019 Free Software Foundation Europe e.V. <https:  fsfe.org>",
+          "source": "scancode"
+        }
+      ],
+      "vulnerabilities": [],
+      "quality": [],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.008926s"
+      }
+    }
+  ]
+  ,
+  ".reuse/dep5": [
+    {
+      "id": "none",
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.000008s"
+      }
+    }
+  ]
+  ,
+  "./.pylintrc": [
+    {
+      "id": "none",
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.000007s"
+      }
+    }
+  ]
+  ,
+  ".github/workflows/license_list_up_to_date.py": [
+    {
+      "id": "none",
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.000007s"
+      }
+    }
+  ]
+  ,
+  ".github/workflows/latesttag.py": [
+    {
+      "id": "none",
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.000007s"
+      }
+    }
+  ]
+  ,
+  "./.editorconfig": [
+    {
+      "id": "none",
+      "server": {
+        "hostname": "p9",
+        "version": "4.3.1",
+        "flags": "0",
+        "elapsed": "0.000007s"
+      }
+    }
+  ]
+
+}

@@ -1,0 +1,61 @@
+{
+  "reportSchema": "1.1",
+  "scanInfo": {
+    "engineVersion": "6.2.2",
+    "dataSource": [
+      {
+        "name": "NVD CVE Checked",
+        "timestamp": "2021-09-20T12:10:45"
+      },
+      {
+        "name": "NVD CVE Modified",
+        "timestamp": "2021-09-20T12:00:01"
+      },
+      {
+        "name": "VersionCheckOn",
+        "timestamp": "2021-09-19T13:55:55"
+      }
+    ]
+  },
+  "projectInfo": {
+    "name": "",
+    "reportDate": "2021-09-20T12:10:51.304633Z",
+    "credits": {
+      "NVD": "This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov",
+      "NPM": "This report may contain data retrieved from the NPM Public Advisories: https://www.npmjs.com/advisories",
+      "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+      "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+    }
+  },
+  "dependencies": [
+    {
+      "isVirtual": false,
+      "fileName": "DotZLib.csproj",
+      "filePath": "contrib/dotzlib/DotZLib/DotZLib.csproj",
+      "md5": "1549ce82a2662e77a22625f68c0a5d36",
+      "sha1": "99238c2ad633a641687d722e8c80aaa0a8c8bdd2",
+      "sha256": "21606db31dfef6410dd438b73f1db68856eacabcce6c0f0411fc4f17e17001f3",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "DotZLib"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "DotZLib"
+          }
+        ],
+        "versionEvidence": []
+      }
+    }
+  ]
+}

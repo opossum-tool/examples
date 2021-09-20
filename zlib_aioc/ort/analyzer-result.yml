@@ -1,0 +1,482 @@
+---
+repository:
+  vcs:
+    type: "Git"
+    url: "https://github.com/madler/zlib"
+    revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+    path: ""
+  vcs_processed:
+    type: "Git"
+    url: "https://github.com/madler/zlib.git"
+    revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+    path: ""
+  config: {}
+analyzer:
+  start_time: "2021-09-20T12:06:14.136939Z"
+  end_time: "2021-09-20T12:06:18.301842Z"
+  environment:
+    ort_version: "DOCKER-SNAPSHOT"
+    java_version: "11.0.8"
+    os: "Linux"
+    processors: 12
+    max_memory: 16773021696
+    variables:
+      JAVA_HOME: "/opt/java/openjdk"
+      ANDROID_HOME: "/opt/android-sdk"
+      GOPATH: "/go"
+    tool_versions: {}
+  config:
+    ignore_tool_versions: false
+    allow_dynamic_versions: true
+  result:
+    projects:
+    - id: "DotNet::contrib/dotzlib/DotZLib/DotZLib.csproj:"
+      definition_file_path: "contrib/dotzlib/DotZLib/DotZLib.csproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/dotzlib/DotZLib"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc10/miniunz.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc10/miniunz.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc10"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc10/minizip.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc10/minizip.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc10"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc10/testzlib.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc10/testzlib.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc10"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc10/testzlibdll.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc10/testzlibdll.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc10"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc10/zlibstat.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc10/zlibstat.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc10"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc10/zlibvc.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc10/zlibvc.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc10"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc11/miniunz.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc11/miniunz.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc11"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc11/minizip.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc11/minizip.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc11"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc11/testzlib.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc11/testzlib.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc11"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc11/testzlibdll.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc11/testzlibdll.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc11"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc11/zlibstat.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc11/zlibstat.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc11"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc11/zlibvc.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc11/zlibvc.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc11"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc12/miniunz.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc12/miniunz.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc12"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc12/minizip.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc12/minizip.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc12"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc12/testzlib.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc12/testzlib.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc12"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc12/testzlibdll.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc12/testzlibdll.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc12"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc12/zlibstat.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc12/zlibstat.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc12"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc12/zlibvc.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc12/zlibvc.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc12"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc14/miniunz.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc14/miniunz.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc14"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc14/minizip.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc14/minizip.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc14"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc14/testzlib.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc14/testzlib.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc14"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc14/testzlibdll.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc14/testzlibdll.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc14"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc14/zlibstat.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc14/zlibstat.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc14"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "DotNet::contrib/vstudio/vc14/zlibvc.vcxproj:"
+      definition_file_path: "contrib/vstudio/vc14/zlibvc.vcxproj"
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib.git"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: "contrib/vstudio/vc14"
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    - id: "Unmanaged::zlib:cacf7f1d4e3d44d871b605da3b647f07d718623f"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/madler/zlib"
+        revision: "cacf7f1d4e3d44d871b605da3b647f07d718623f"
+        path: ""
+      homepage_url: ""
+      scope_names: []
+    packages: []
+    dependency_graphs:
+      DotNet:
+        nodes: []
+        edges: []
+    has_issues: false
+scanner: null
+advisor: null
+evaluator: null
